@@ -1,0 +1,11 @@
+{
+    "name": "cow/www.lesprosauresto.com",
+    "description": "Wordpress theme pour www.lesprosauresto.com",
+    "authors": [
+        {
+            "name": "Laurent Yen Pon",
+            "email": "lyenpon974@gmail.com"
+        }
+    ],
+    "require": {}
+}
