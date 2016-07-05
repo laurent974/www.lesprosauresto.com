@@ -1,18 +1,19 @@
 var elixir      = require('laravel-elixir');
-require('laravel-elixir-livereload');
 
-elixir.config.assetsPath = 'app/';
+elixir.config.assetsPath = 'app';
+elixir.config.viewPath = '';
 
 elixir(function(mix) {
-  mix.sass('main.scss');
+  mix
+    .sass('main.scss')
+    .scripts([
+      'vendor/jquery-3.0.0.js',
+      'app.js'
+    ]);
 
-  // mix.scripts([
-  //
-  // ]);
-
-  mix.livereload([
-    '**/*.php',
-    'app/sass/**/*.scss',
-    'app/js/**/*.js'
-  ]);
+    mix.browserSync([
+      'app/sass/**/*.scss',
+      'app/js/**/*.js',
+      '**/*.php'
+    ]);
 });
