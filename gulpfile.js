@@ -8,6 +8,7 @@ elixir(function(mix) {
     .sass('main.scss')
     .scripts([
       'vendor/jquery-3.0.0.js',
+      'vendor/trunk.js',
       'app.js'
     ]);
 
