@@ -3,3 +3,13 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.Global {
+	overflow: hidden;
+	background-color: #000;
+
+/*  Prevents Flickering  */
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+}
