@@ -1,58 +1,10 @@
-body {
-	background-color: #000;
-	
-	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #9aa6af;
-	text-rendering: optimizelegibility;
-	
-	-webkit-tap-highlight-color:rgba(0,0,0,0);
-	-webkit-text-size-adjust: none;
-	-webkit-font-smoothing: antialiased;
-	
-	-moz-tap-highlight-color:rgba(0,0,0,0); 
-	-moz-text-size-adjust: none;
-	-moz-font-smoothing: antialiased;
-	
-	-ms-tap-highlight-color:rgba(0,0,0,0); 
-	-ms-text-size-adjust: none;
-	-ms-font-smoothing: antialiased;
-}
-a {text-decoration: none;}
-
-.container {
-	overflow: hidden;
-	background-color: #000;
-
-/*  Prevents Flickering  */
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-}
-
-
-
-
-header {
-	height: 60px;
-	position: relative;
-	background-color: #f3f5f6;
-}
-header h1 {
-	color: #9aa6af;
-	text-align: left;
-	font-size: 27px;
-	line-height: 60px;
-	font-weight: bold;
-	padding-left: 20px;
-}
-
 .burger {
 	position: absolute;
 	float: left;
 	padding: 10px;
 	top: 4px;
 	left: 10px;
-	
+
 	display: none;
 }
 .burger li {
@@ -64,73 +16,43 @@ header h1 {
 }
 .burger.open li {background-color: #d9dde1;}
 
-nav {
+.Navbar {
 	position: absolute;
 	top: 0;
 	right: 5px;
 }
-nav li {
+.Navbar li {
 	float: left;
-	
+
 	display: inline-block;
 }
-nav li a {
+.Navbar li a {
 	font-size: 11px;
 	color: #9aa6af;
 	padding: 24px 15px;
-	
+
 	display: block;
 }
-nav li a:hover {color: #000;}
-
-
-
-
-/*  Removable CSS  */
-
-.header-section,
-.body-section,
-.footer-section 
-{padding: 20px;}
-
-.header-section {background-color: #ffffff;}
-.body-section {background-color: #f4f5f6;}
-.footer-section {background-color: #dadee1;}
-.placefiller {
-	text-align: center;
-	font-size: 20px;
-	border: 1px dashed rgba(190, 196, 202, 0.5);
-}
-.header-section .placefiller {line-height: 300px;}
-.body-section .placefiller {line-height: 900px;}
-.footer-section .placefiller {
-	line-height: 200px;
-	border: 1px dashed rgba(190, 196, 202, 0.9);
-}
-
-
-
-
-
+.Navbar li a:hover {color: #000;}
 
 @media only screen and (max-width: 780px) {
 
-header {
+.Header {
 	height: 60px;
 	z-index: 2;
 	background-color: #060a0c;
-	
+
 	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
-	
+
 		/* starting point */
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
-header h1 {
+.Header h1 {
 	color: #ffffff;
 	text-align: center;
 	padding-left: 0;
@@ -140,41 +62,41 @@ header h1 {
 
 
 /*  Nav Drawer Layout  */
-nav {position: relative;}
+.Navbar {position: relative;}
 
-nav ul {
+.Navbar ul {
 	height: 100%;
 	overflow-y: auto;
 }
-nav li {
+.Navbar li {
 	display: block;
 	float: none;
 }
-nav li a {
+.Navbar li a {
 	padding: 22px 25px;
 	letter-spacing: 3px;
 	font-size: 14px;
 }
-nav li a.logo {
+.Navbar li a.logo {
 	display: none;
 }
-nav li a.active {
+n.Navbar li a.active {
 	color: #fff;
 	background-color: #141e23;
 }
-nav li a:hover {
+.Navbar li a:hover {
 	color: #fff;
 	background-color: #19252c;
 }
-nav li:first-child a.active,
-nav li:first-child a:hover 
+.Navbar li:first-child a.active,
+.Navbar li:first-child a:hover
 {border-radius: 10px 0 0 0;}
 
 .header-section {margin-top: 60px;}
 
 
 /* NAVIGATION ANNIMATION */
-nav {
+.Navbar {
 	width: 93%;
 	height: 100%;
 	position: fixed;
@@ -183,7 +105,7 @@ nav {
 	margin: 0;
 	background-color: #1d2d35;
 	border-radius: 8px;
-	
+
 	/* starting point */
 	opacity: .3;
 	-webkit-transform: translate3d(5%,0,0)scale(.97);
@@ -192,15 +114,15 @@ nav {
 }
 
 /*Nav Expanding Open Effect*/
-nav.open {
+.Navbar.open {
 	opacity: 1;
 
 	-webkit-transform: translate3d(0,0,0)scale(1);
 	-webkit-animation: slideIn .35s ease-in-out;
-	
+
 	-moz-transform: translate3d(0,0,0)scale(1);
 	-moz-animation: slideIn .35s ease-in-out;
-	
+
 	transform: translate3d(0,0,0)scale(1);
 	animation: slideIn .35s ease-in-out;
 }
@@ -224,15 +146,15 @@ nav.open {
 }
 
 /*Nav Shrinking Closed Effect*/
-nav.close {
+.Navbar.close {
 	opacity: .3;
-	
+
 	-webkit-transform: translate3d(5%,0,0)scale(.97);
 	-webkit-animation: slideOut .3s ease-in-out;
-	
+
 	-moz-transform: translate3d(5%,0,0)scale(.97);
 	-moz-animation: slideOut .3s ease-in-out;
-	
+
 	transform: translate3d(5%,0,0)scale(.97);
 	animation: slideOut .3s ease-in-out;
 }
@@ -258,7 +180,7 @@ nav.close {
 
 
 /* CONTENT ANNIMATION */
-.content {
+.Content {
 	/* starting point */
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
@@ -267,15 +189,15 @@ nav.close {
 }
 
 /*Content Sliding Open Effect*/
-header.open,
-.content.open 
-{   
+.Header.open,
+.Content.open
+{
 	-webkit-transform: translate3d(240px,0,0);
 	-webkit-animation: open .5s ease-in-out;
-	
+
 	-moz-transform: translate3d(240px,0,0);
 	-moz-animation: open .5s ease-in-out;
-	
+
 	transform: translate3d(240px,0,0);
 	animation: open .5s ease-in-out;
 }
@@ -296,15 +218,15 @@ header.open,
 }
 
 /*Content Sliding Closed Effect*/
-header.close,
-.content.close 
+.Header.close,
+.Content.close
 {
 	-webkit-transform: translate3d(0,0,0);
 	-webkit-animation: close .3s ease-in-out;
-	
+
 	-moz-transform: translate3d(0,0,0);
 	-moz-animation: close .3s ease-in-out;
-	
+
 	transform: translate3d(0,0,0);
 	animation: close .3s ease-in-out;
 }

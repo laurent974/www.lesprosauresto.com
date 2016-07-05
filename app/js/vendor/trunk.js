@@ -11,7 +11,7 @@ $(function() {
     var clickevent = mobilecheck() ? 'touchstart' : 'click';
 
     var items = $('.slide');
-    var content = $('.content');
+    var $content = $('.Content');
 
     function open() {
         $(items).removeClass('close').addClass('open');
@@ -22,18 +22,18 @@ $(function() {
     }
 
     $('#navToggle').on(clickevent, function(event) {
-        event.stopPropagation();
-        event.preventDefault();
-        if (content.hasClass('open')) {
-            close();
-        } else {
-            open();
-        }
-    });
-    content.click(function() {
-        if (content.hasClass('open')) {
-            close();
-        }
+      event.stopPropagation();
+      event.preventDefault();
+      if ($content.hasClass('open')) {
+          close();
+      } else {
+          open();
+      }
     });
 
+    $content.on('click', function() {
+      if ($content.hasClass('open')) {
+          close();
+      }
+    });
 });
