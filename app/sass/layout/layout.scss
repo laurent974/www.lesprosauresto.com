@@ -10,7 +10,7 @@ body {
 
 .Global {
 	overflow: hidden;
-	background-color: #000;
+	background-color: $white;
 
 /*  Prevents Flickering  */
 	-webkit-backface-visibility: hidden;
