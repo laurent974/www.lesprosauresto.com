@@ -438,7 +438,7 @@ table {
     display: inline-block; }
     .Navbar li a {
       font-size: 15px;
-      color: #ffffff;
+      color: #000000;
       padding: 10px 15px;
       display: block;
       font-weight: 300;
@@ -464,13 +464,10 @@ table {
     background: #333;
     line-height: 1em;
     padding: 15px;
-    height: auto;
-    border-top: 1px solid #ffffff; }
-    .Navbar .sub-menu a:first-child {
-      border-top: none; }
+    height: auto; }
   .Navbar li:hover > a,
   .Navbar .sub-menu:hover > a {
-    color: #ffffff;
+    color: #000000;
     background-color: #379cc2;
     text-shadow: none; }
   .Navbar ul li:hover > ul {
@@ -523,31 +520,30 @@ table {
             .Navbar ul li a.logo {
               display: none; }
             .Navbar ul li a.active {
-              color: #ffffff;
-              background-color: #141e23; }
+              color: #000000; }
             .Navbar ul li a:hover {
-              color: #ffffff;
-              background-color: #19252c; } }
+              color: #000000; } }
 
-@media (max-width: 767px) {
-  .Header {
-    display: block;
-    height: 60px;
-    z-index: 2;
-    background-color: #000000;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    /* starting point */
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
-
-.Header h1 {
-  color: #ffffff;
-  text-align: center;
-  padding-left: 0;
-  display: block; }
+.Header {
+  height: 60px;
+  background-color: #ffffff; }
+  @media (max-width: 767px) {
+    .Header {
+      display: block;
+      z-index: 2;
+      background-color: #ffffff;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      /* starting point */
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); } }
+  .Header h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0;
+    display: block; }
 
 @media (max-width: 767px) {
   .Content {
