@@ -79,7 +79,7 @@
 		}
 
 		/*Nav Shrinking Closed Effect*/
-		.Navbar.close {
+		&.close {
 			opacity: .3;
 
 			-webkit-transform: translate3d(5%,0,0)scale(.97);
