@@ -46,7 +46,7 @@
 		}
 
 		&.current-menu-item {
-			a {
+			& > a {
 				font-weight: 700;
 			}
 		}
