@@ -457,6 +457,8 @@ table {
     .Navbar .menu-item-has-children .sub-menu a:before {
       content: '\25c4';
       padding-right: 0.5em; }
+    .Navbar .menu-item-has-children .sub-menu a .sub-menu:before {
+      content: ''; }
   .Navbar .sub-menu {
     display: none;
     position: absolute;
@@ -469,7 +471,7 @@ table {
     right: 100%;
     top: 0; }
   .Navbar .sub-menu a {
-    background: #333;
+    background: #ffffff;
     line-height: 1em;
     padding: 15px;
     height: auto; }
