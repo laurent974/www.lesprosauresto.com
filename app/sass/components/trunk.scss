@@ -55,10 +55,21 @@
 	.menu-item-has-children {
 		position: relative;
 
-	  a:after {
-	    content: '\25bc';
-	    padding-left: 0.5em;
-	  }
+		a:after {
+			content: '\25bc';
+			padding-left: 0.5em;
+		}
+
+		.sub-menu a {
+			&:after {
+				content: '';
+			}
+
+			&:before {
+				content: '\25c4';
+				padding-right: 0.5em;
+			}
+		}
 	}
 
 	.sub-menu {
