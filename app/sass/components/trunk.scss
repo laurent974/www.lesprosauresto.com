@@ -69,6 +69,12 @@
 				content: '\25c4';
 				padding-right: 0.5em;
 			}
+
+			.sub-menu {
+				&:before {
+					content: '';
+				}
+			}
 		}
 	}
 
@@ -90,7 +96,7 @@
 	}
 
 	.sub-menu a {
-		background: #333;
+		background: $white;
 		line-height: 1em;
 		padding: $normal;
 		height: auto;
