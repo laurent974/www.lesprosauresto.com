@@ -174,13 +174,8 @@
 		display: block;
 	}
 }
-@media only screen and (max-width: 780px) {
 
-	.header-section {
-		margin-top: 60px;
-	}
-
-
+@include mq(xs) {
 	@-webkit-keyframes slideOut {
 		0%      {opacity: 1;
 					-webkit-transform: translate3d(0,0,0)scale(1);}
@@ -199,6 +194,44 @@
 		100%  {opacity: .3;
 					transform: translate3d(5%,0,0)scale(.97);}
 	}
+
+	@-webkit-keyframes open {
+		0%      {-webkit-transform: translate3d(0,0,0);}
+		70%    {-webkit-transform: translate3d(260px,0,0);}
+		100%  {-webkit-transform: translate3d(240px,0,0);}
+	}
+	@-moz-keyframes open {
+		0%      {-moz-transform: translate3d(0,0,0);}
+		70%    {-moz-transform: translate3d(260px,0,0);}
+		100%  {-moz-transform: translate3d(240px,0,0);}
+	}
+	@keyframes open {
+		0%      {transform: translate3d(0,0,0);}
+		70%    {transform: translate3d(260px,0,0);}
+		100%  {transform: translate3d(240px,0,0);}
+	}
+
+	@-webkit-keyframes close {
+		0%      {-webkit-transform: translate3d(240px,0,0);}
+		100%  {-webkit-transform: translate3d(0,0,0);}
+	}
+	@-moz-keyframes close {
+		0%       {-moz-transform: translate3d(240px,0,0);}
+		100%  {-moz-transform: translate3d(0,0,0);}
+	}
+	@keyframes close {
+		0%       {transform: translate3d(240px,0,0);}
+		100%  {transform: translate3d(0,0,0);}
+	}
+}
+@media only screen and (max-width: 780px) {
+
+	.header-section {
+		margin-top: 60px;
+	}
+
+
+
 
 
 	/* CONTENT ANNIMATION */
@@ -223,21 +256,7 @@
 		transform: translate3d(240px,0,0);
 		animation: open .5s ease-in-out;
 	}
-	@-webkit-keyframes open {
-		0%      {-webkit-transform: translate3d(0,0,0);}
-		70%    {-webkit-transform: translate3d(260px,0,0);}
-		100%  {-webkit-transform: translate3d(240px,0,0);}
-	}
-	@-moz-keyframes open {
-		0%      {-moz-transform: translate3d(0,0,0);}
-		70%    {-moz-transform: translate3d(260px,0,0);}
-		100%  {-moz-transform: translate3d(240px,0,0);}
-	}
-	@keyframes open {
-		0%      {transform: translate3d(0,0,0);}
-		70%    {transform: translate3d(260px,0,0);}
-		100%  {transform: translate3d(240px,0,0);}
-	}
+
 
 	/*Content Sliding Closed Effect*/
 	.Header.close,
@@ -252,17 +271,6 @@
 		transform: translate3d(0,0,0);
 		animation: close .3s ease-in-out;
 	}
-	@-webkit-keyframes close {
-		0%      {-webkit-transform: translate3d(240px,0,0);}
-		100%  {-webkit-transform: translate3d(0,0,0);}
-	}
-	@-moz-keyframes close {
-		0%       {-moz-transform: translate3d(240px,0,0);}
-		100%  {-moz-transform: translate3d(0,0,0);}
-	}
-	@keyframes close {
-		0%       {transform: translate3d(240px,0,0);}
-		100%  {transform: translate3d(0,0,0);}
-	}
+
 
 }
