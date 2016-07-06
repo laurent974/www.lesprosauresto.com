@@ -413,7 +413,7 @@ table {
   position: absolute;
   float: left;
   padding: 10px;
-  top: 4px;
+  top: 5px;
   left: 10px;
   display: none; }
   .burger li {
@@ -440,11 +440,11 @@ table {
       color: #9aa6af;
       padding: 24px 15px;
       display: block; }
-      .Navbar li a .active {
-        color: #fff;
-        background-color: #141e23; }
     .Navbar li:hover {
       color: #000000; }
+    .Navbar li.current-menu-item a {
+      color: #ffffff;
+      background-color: #141e23; }
   @media (max-width: 767px) {
     .Navbar {
       width: 93%;
@@ -454,7 +454,7 @@ table {
       top: 0;
       margin: 0;
       background-color: #1d2d35;
-      border-radius: 8px;
+      border-radius: 5px;
       /* starting point */
       opacity: .3;
       -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
@@ -486,16 +486,16 @@ table {
           .Navbar ul li:first-child a:hover {
             border-radius: 10px 0 0 0; }
           .Navbar ul li a {
-            padding: 22px 25px;
-            letter-spacing: 3px;
+            padding: 20px 20px;
+            letter-spacing: 2px;
             font-size: 14px; }
             .Navbar ul li a.logo {
               display: none; }
             .Navbar ul li a.active {
-              color: #fff;
+              color: #ffffff;
               background-color: #141e23; }
             .Navbar ul li a:hover {
-              color: #fff;
+              color: #ffffff;
               background-color: #19252c; } }
 
 @media (max-width: 767px) {
@@ -546,10 +546,6 @@ table {
     -moz-animation: close .3s ease-in-out;
     transform: translate3d(0, 0, 0);
     animation: close .3s ease-in-out; } }
-
-@media (max-width: 767px) {
-  .header-section {
-    margin-top: 60px; } }
 
 @media (max-width: 767px) {
   /*Nav Expanding Open Effect*/
