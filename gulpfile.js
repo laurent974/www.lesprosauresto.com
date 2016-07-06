@@ -12,9 +12,9 @@ elixir(function(mix) {
       'app.js'
     ]);
 
-    mix.browserSync([
-      'app/sass/**/*.scss',
-      'app/js/**/*.js',
-      '**/*.php'
-    ]);
+  mix.browserSync([
+    'app/sass/**/*.scss',
+    'app/js/**/*.js',
+    '**/*.php'
+  ]);
 });
