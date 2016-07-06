@@ -51,23 +51,27 @@
 		}
 	}
 
-	ul ul {
+	.menu-item-has-children {
+		position: relative;
+	}
+	.sub-menu {
 		display: none;
 		position: absolute;
+		right: 0;
 		width: 180px;
 		z-index: 99999;
 	}
 
-	ul ul li {
+	.sub-menu li {
 		min-width: 180px;
 	}
 
-	ul ul ul {
-		left: 100%;
+	.sub-menu .sub-menu {
+		right: 100%;
 		top: 0;
 	}
 
-	ul ul a {
+	.sub-menu a {
 		background: #333;
 		line-height: 1em;
 		padding: $normal;
@@ -76,7 +80,7 @@
 	}
 
 	li:hover > a,
-	ul ul:hover > a {
+	.sub-menu:hover > a {
 		color: $white;
 		background-color:#379cc2;
 		text-shadow:none;
