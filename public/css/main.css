@@ -452,6 +452,11 @@ table {
     .Navbar .menu-item-has-children a:after {
       content: '\25bc';
       padding-left: 0.5em; }
+    .Navbar .menu-item-has-children .sub-menu a:after {
+      content: ''; }
+    .Navbar .menu-item-has-children .sub-menu a:before {
+      content: '\25c4';
+      padding-right: 0.5em; }
   .Navbar .sub-menu {
     display: none;
     position: absolute;
