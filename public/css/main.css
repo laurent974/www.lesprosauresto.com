@@ -493,22 +493,6 @@ table {
         -moz-animation: slideOut .3s ease-in-out;
         transform: translate3d(5%, 0, 0) scale(0.97);
         animation: slideOut .3s ease-in-out; }
-    @-webkit-keyframes slideOut {
-      0% {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0) scale(1); }
-      100% {
-        opacity: .3;
-        -webkit-transform: translate3d(5%, 0, 0) scale(0.97); } }
-    @keyframes slideOut {
-      0% {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0) scale(1);
-        transform: translate3d(0, 0, 0) scale(1); }
-      100% {
-        opacity: .3;
-        -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
-        transform: translate3d(5%, 0, 0) scale(0.97); } }
       .Navbar ul {
         height: 100%;
         overflow-y: auto; }
@@ -554,6 +538,22 @@ table {
 @media only screen and (max-width: 780px) {
   .header-section {
     margin-top: 60px; }
+  @-webkit-keyframes slideOut {
+    0% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0) scale(1); }
+    100% {
+      opacity: .3;
+      -webkit-transform: translate3d(5%, 0, 0) scale(0.97); } }
+  @keyframes slideOut {
+    0% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+      transform: translate3d(0, 0, 0) scale(1); }
+    100% {
+      opacity: .3;
+      -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
+      transform: translate3d(5%, 0, 0) scale(0.97); } }
   /* CONTENT ANNIMATION */
   .Content {
     /* starting point */
