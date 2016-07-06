@@ -416,9 +416,6 @@ table {
   top: 4px;
   left: 10px;
   display: none; }
-  @media (max-width: 767px) {
-    .burger {
-      display: block; } }
   .burger li {
     width: 30px;
     height: 4px;
@@ -427,6 +424,9 @@ table {
     margin: 5px 0; }
   .burger.open li {
     background-color: #d9dde1; }
+  @media (max-width: 767px) {
+    .burger {
+      display: block; } }
 
 .Navbar {
   position: absolute;
@@ -459,7 +459,6 @@ table {
       opacity: .3;
       -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
       transform: translate3d(5%, 0, 0) scale(0.97);
-      /*Nav Expanding Open Effect*/
       /*Nav Shrinking Closed Effect*/ }
       .Navbar.open {
         opacity: 1;
@@ -469,22 +468,6 @@ table {
         -moz-animation: slideIn .35s ease-in-out;
         transform: translate3d(0, 0, 0) scale(1);
         animation: slideIn .35s ease-in-out; }
-    @-webkit-keyframes slideIn {
-      0% {
-        opacity: .3;
-        -webkit-transform: translate3d(5%, 0, 0) scale(0.97); }
-      100% {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0) scale(1); } }
-    @keyframes slideIn {
-      0% {
-        opacity: .3;
-        -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
-        transform: translate3d(5%, 0, 0) scale(0.97); }
-      100% {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0) scale(1);
-        transform: translate3d(0, 0, 0) scale(1); } }
       .Navbar .Navbar.close {
         opacity: .3;
         -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
@@ -536,6 +519,56 @@ table {
   display: block; }
 
 @media (max-width: 767px) {
+  .Content {
+    /* starting point */
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 1; } }
+
+/*Content Sliding Open Effect*/
+@media (max-width: 767px) {
+  .Header.open,
+  .Content.open {
+    -webkit-transform: translate3d(240px, 0, 0);
+    -webkit-animation: open .5s ease-in-out;
+    -moz-transform: translate3d(240px, 0, 0);
+    -moz-animation: open .5s ease-in-out;
+    transform: translate3d(240px, 0, 0);
+    animation: open .5s ease-in-out; } }
+
+/*Content Sliding Closed Effect*/
+@media (max-width: 767px) {
+  .Header.close,
+  .Content.close {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-animation: close .3s ease-in-out;
+    -moz-transform: translate3d(0, 0, 0);
+    -moz-animation: close .3s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    animation: close .3s ease-in-out; } }
+
+@media (max-width: 767px) {
+  .header-section {
+    margin-top: 60px; } }
+
+@media (max-width: 767px) {
+  /*Nav Expanding Open Effect*/
+  @-webkit-keyframes slideIn {
+    0% {
+      opacity: .3;
+      -webkit-transform: translate3d(5%, 0, 0) scale(0.97); }
+    100% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0) scale(1); } }
+  @keyframes slideIn {
+    0% {
+      opacity: .3;
+      -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
+      transform: translate3d(5%, 0, 0) scale(0.97); }
+    100% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+      transform: translate3d(0, 0, 0) scale(1); } }
   @-webkit-keyframes slideOut {
     0% {
       opacity: 1;
@@ -581,34 +614,6 @@ table {
     100% {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }
-
-@media only screen and (max-width: 780px) {
-  .header-section {
-    margin-top: 60px; }
-  /* CONTENT ANNIMATION */
-  .Content {
-    /* starting point */
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    z-index: 1; }
-  /*Content Sliding Open Effect*/
-  .Header.open,
-  .Content.open {
-    -webkit-transform: translate3d(240px, 0, 0);
-    -webkit-animation: open .5s ease-in-out;
-    -moz-transform: translate3d(240px, 0, 0);
-    -moz-animation: open .5s ease-in-out;
-    transform: translate3d(240px, 0, 0);
-    animation: open .5s ease-in-out; }
-  /*Content Sliding Closed Effect*/
-  .Header.close,
-  .Content.close {
-    -webkit-transform: translate3d(0, 0, 0);
-    -webkit-animation: close .3s ease-in-out;
-    -moz-transform: translate3d(0, 0, 0);
-    -moz-animation: close .3s ease-in-out;
-    transform: translate3d(0, 0, 0);
-    animation: close .3s ease-in-out; } }
 
 .bloc {
   height: 1000px;
