@@ -20,17 +20,7 @@
       </header><!-- /.Header -->
 
       <nav class="Navbar slide">
-        <ul>
-          <li><a href="../trunk.html" class="active">HOME</a></li>
-          <li><a href="#">LINK TWO</a></li>
-          <li><a href="#">LINK THREE</a></li>
-          <li><a href="#">LINK FOUR</a></li>
-          <li><a href="#">LINK FIVE</a></li>
-          <li><a href="#">LINK SIX</a></li>
-          <li><a href="#">LINK SEVEN</a></li>
-
-          <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-        </ul>
+        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
       </nav><!-- /.Navbar -->
 
       <div class="Content slide">     <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
