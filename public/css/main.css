@@ -462,7 +462,6 @@ table {
     background: #333;
     line-height: 1em;
     padding: 15px;
-    width: 160px;
     height: auto; }
   .Navbar li:hover > a,
   .Navbar .sub-menu:hover > a {
