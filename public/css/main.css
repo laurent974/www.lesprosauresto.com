@@ -420,7 +420,7 @@ table {
   .burger li {
     width: 30px;
     height: 4px;
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 3px;
     margin: 5px 0; }
   .burger.open li {
@@ -431,7 +431,7 @@ table {
 
 .Navbar {
   position: absolute;
-  top: 0;
+  top: 12px;
   right: 5px; }
   .Navbar li {
     float: left;
@@ -449,6 +449,9 @@ table {
       font-weight: 700; }
   .Navbar .menu-item-has-children {
     position: relative; }
+    .Navbar .menu-item-has-children:after {
+      content: '\25bc';
+      padding-left: 0.5em; }
   .Navbar .sub-menu {
     display: none;
     position: absolute;
