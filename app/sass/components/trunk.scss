@@ -69,11 +69,11 @@
 				content: '\25c4';
 				padding-right: 0.5em;
 			}
+		}
 
-			.sub-menu a {
-				&:before {
-					content: '';
-				}
+		.sub-menu .sub-menu a {
+			&:before {
+				content: '';
 			}
 		}
 	}
