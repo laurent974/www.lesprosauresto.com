@@ -9,7 +9,7 @@
 	li {
 		width: 30px;
 		height: 4px;
-		background-color: $white;
+		background-color: $black;
 		border-radius: 3px;
 		margin: $small 0;
 	}
@@ -25,7 +25,7 @@
 
 .Navbar {
 	position: absolute;
-	top: 0;
+	top: 12px;
 	right: $small;
 
 	li {
@@ -54,6 +54,11 @@
 
 	.menu-item-has-children {
 		position: relative;
+
+	  &:after {
+	    content: '\25bc';
+	    padding-left: 0.5em;
+	  }
 	}
 
 	.sub-menu {
