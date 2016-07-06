@@ -1,9 +1,9 @@
 .burger {
 	position: absolute;
 	float: left;
-	padding: 10px;
-	top: 4px;
-	left: 10px;
+	padding: $medium;
+	top: $small;
+	left: $medium;
 	display: none;
 
 	li {
@@ -11,7 +11,7 @@
 		height: 4px;
 		background-color: $white;
 		border-radius: 3px;
-		margin: 5px 0;
+		margin: $small 0;
 	}
 
 	&.open li {
@@ -26,7 +26,7 @@
 .Navbar {
 	position: absolute;
 	top: 0;
-	right: 5px;
+	right: $small;
 
 	li {
 		float: left;
@@ -35,17 +35,19 @@
 		a {
 			font-size: 11px;
 			color: #9aa6af;
-			padding: 24px 15px;
+			padding: 24px $normal;
 			display: block;
-
-			.active {
-				color: #fff;
-				background-color: #141e23;
-			}
 		}
 
 		&:hover {
 			color: $black;
+		}
+
+		&.current-menu-item {
+			a {
+				color: $white;
+				background-color: #141e23;
+			}
 		}
 	}
 
@@ -57,7 +59,7 @@
 		top: 0;
 		margin: 0;
 		background-color: #1d2d35;
-		border-radius: 8px;
+		border-radius: $small;
 
 		/* starting point */
 		opacity: .3;
@@ -102,12 +104,12 @@
 
 				&:first-child a.active,
 				&:first-child a:hover {
-					border-radius: 10px 0 0 0;
+					border-radius: $medium 0 0 0;
 				}
 
 				a {
-					padding: 22px 25px;
-					letter-spacing: 3px;
+					padding: $large $large;
+					letter-spacing: 2px;
 					font-size: 14px;
 
 					&.logo {
@@ -115,12 +117,12 @@
 					}
 
 					&.active {
-						color: #fff;
+						color: $white;
 						background-color: #141e23;
 					}
 
 					&:hover {
-						color: #fff;
+						color: $white;
 						background-color: #19252c;
 					}
 				}
@@ -193,12 +195,6 @@
 
 		transform: translate3d(0,0,0);
 		animation: close .3s ease-in-out;
-	}
-}
-
-.header-section {
-	@include mq(xs) {
-		margin-top: 60px;
 	}
 }
 
