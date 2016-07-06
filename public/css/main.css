@@ -437,15 +437,16 @@ table {
     float: left;
     display: inline-block; }
     .Navbar li a {
-      font-size: 11px;
-      color: #9aa6af;
-      padding: 24px 15px;
-      display: block; }
+      font-size: 15px;
+      color: #ffffff;
+      padding: 10px 15px;
+      display: block;
+      font-weight: 300;
+      text-decoration: none; }
     .Navbar li:hover {
       color: #000000; }
     .Navbar li.current-menu-item a {
-      color: #ffffff;
-      background-color: #141e23; }
+      font-weight: 700; }
   .Navbar .menu-item-has-children {
     position: relative; }
   .Navbar .sub-menu {
@@ -463,7 +464,10 @@ table {
     background: #333;
     line-height: 1em;
     padding: 15px;
-    height: auto; }
+    height: auto;
+    border-top: 1px solid #ffffff; }
+    .Navbar .sub-menu a:first-child {
+      border-top: none; }
   .Navbar li:hover > a,
   .Navbar .sub-menu:hover > a {
     color: #ffffff;
@@ -513,8 +517,9 @@ table {
             border-radius: 10px 0 0 0; }
           .Navbar ul li a {
             padding: 20px 20px;
-            letter-spacing: 2px;
-            font-size: 14px; }
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: 600; }
             .Navbar ul li a.logo {
               display: none; }
             .Navbar ul li a.active {
