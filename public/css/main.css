@@ -445,7 +445,7 @@ table {
       text-decoration: none; }
     .Navbar li:hover {
       color: #000000; }
-    .Navbar li.current-menu-item a {
+    .Navbar li.current-menu-item > a {
       font-weight: 700; }
   .Navbar .menu-item-has-children {
     position: relative; }
