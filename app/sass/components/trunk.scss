@@ -33,10 +33,12 @@
 		display: inline-block;
 
 		a {
-			font-size: 11px;
-			color: #9aa6af;
-			padding: 24px $normal;
+			font-size: 15px;
+			color: $white;
+			padding: $medium $normal;
 			display: block;
+			font-weight: 300;
+			text-decoration: none;
 		}
 
 		&:hover {
@@ -45,8 +47,7 @@
 
 		&.current-menu-item {
 			a {
-				color: $white;
-				background-color: #141e23;
+				font-weight: 700;
 			}
 		}
 	}
@@ -54,6 +55,7 @@
 	.menu-item-has-children {
 		position: relative;
 	}
+
 	.sub-menu {
 		display: none;
 		position: absolute;
@@ -76,6 +78,11 @@
 		line-height: 1em;
 		padding: $normal;
 		height: auto;
+		border-top: 1px solid $white;
+
+		&:first-child {
+			border-top: none;
+		}
 	}
 
 	li:hover > a,
@@ -147,8 +154,9 @@
 
 				a {
 					padding: $large $large;
-					letter-spacing: 2px;
 					font-size: 14px;
+					text-decoration: none;
+					font-weight: 600;
 
 					&.logo {
 						display: none;
