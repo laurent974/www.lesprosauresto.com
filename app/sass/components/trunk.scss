@@ -34,7 +34,7 @@
 
 		a {
 			font-size: 15px;
-			color: $white;
+			color: $black;
 			padding: $medium $normal;
 			display: block;
 			font-weight: 300;
@@ -78,16 +78,11 @@
 		line-height: 1em;
 		padding: $normal;
 		height: auto;
-		border-top: 1px solid $white;
-
-		&:first-child {
-			border-top: none;
-		}
 	}
 
 	li:hover > a,
 	.sub-menu:hover > a {
-		color: $white;
+		color: $black;
 		background-color:#379cc2;
 		text-shadow:none;
 	}
@@ -163,13 +158,11 @@
 					}
 
 					&.active {
-						color: $white;
-						background-color: #141e23;
+						color: $black;
 					}
 
 					&:hover {
-						color: $white;
-						background-color: #19252c;
+						color: $black;
 					}
 				}
 			}
@@ -178,11 +171,13 @@
 }
 
 .Header {
+	height: 60px;
+	background-color: $white;
+
 	@include mq(xs) {
 		display: block;
-		height: 60px;
 		z-index: 2;
-		background-color: $black;
+		background-color: $white;
 
 		position: fixed;
 		top: 0;
