@@ -457,7 +457,7 @@ table {
     .Navbar .menu-item-has-children .sub-menu a:before {
       content: '\25c4';
       padding-right: 0.5em; }
-    .Navbar .menu-item-has-children .sub-menu a .sub-menu:before {
+    .Navbar .menu-item-has-children .sub-menu a .sub-menu a:before {
       content: ''; }
   .Navbar .sub-menu {
     display: none;
