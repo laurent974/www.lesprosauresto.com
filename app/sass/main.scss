@@ -8,11 +8,9 @@
 @import 'layout/reset';
 @import 'layout/layout';
 @import 'layout/grid';
+@import 'layout/title';
 
 // Components
-@import 'components/trunk.scss'; //navbar responsive
-
-.bloc {
-  height: 1000px;
-  background: blue;
-}
+@import 'components/part';
+@import 'components/trunk'; //navbar responsive
+@import 'components/post';
