@@ -1,8 +1,8 @@
-a {
+.Link {
   color: $pacifica;
-  transition: all .3s linear;
+  transition: all .15s linear;
 
   &:hover {
-    color: lighten($pacifica, 20);
+    color: darken($pacifica, 20);
   }
 }
