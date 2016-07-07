@@ -3,9 +3,20 @@
 
   .Title {
 
+    span {
+      display: inline-block;
+      vertical-align: text-top;
+      padding-left: 10px;
+    }
   }
 
-  .Content {
+  .Content,
+  p {
+    font-weight: 300;
+  }
 
+  strong,
+  b {
+    font-weight: 600;
   }
 }
