@@ -602,4 +602,8 @@ body {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }
 
+.Banner {
+  background-image: url("/public/images/banner.jpg");
+  width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
