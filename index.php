@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="Banner">
-  <img src="public/images/banner.jpg" alt="Bienvenue sur les pros au resto !" />
+  <img src="<?php bloginfo('template_directory'); ?>public/images/banner.jpg" alt="Bienvenue sur les pros au resto !" />
 </div>
 <section class="Part slide">
   <?php query_posts('category_name=Accueil'); ?>
