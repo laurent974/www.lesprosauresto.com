@@ -21,6 +21,15 @@
         <ul id="navToggle" class="burger slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
           <li></li><li></li><li></li>
         </ul>
+
+        <?php query_posts('category_name=Login'); ?>
+        <?php if (have_posts()) : ?>
+          <?php while (have_posts()) : the_post(); ?>
+             <div class="Login">
+               <?php the_content(); ?>
+             </div>
+           <?php endwhile; ?>
+         <?php endif; ?>
       </header><!-- /.Header -->
 
       <nav class="Navbar slide">
