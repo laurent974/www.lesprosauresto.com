@@ -53,6 +53,7 @@ body {
 .Global {
   overflow: hidden;
   background-color: #ffffff;
+  color: #556270;
   /*  Prevents Flickering  */
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -366,7 +367,10 @@ body {
 
 .Title-H1 {
   color: #FF6B6B;
+  border-bottom: 3px solid #FF6B6B;
+  padding: 5px 0;
   font-size: 20px;
+  font-weight: 300;
   text-transform: uppercase;
   margin-bottom: 10px; }
 
@@ -619,7 +623,7 @@ a {
   margin-top: 30px; }
 
 .Banner {
-  background: url("../images/banner.jpg") center;
+  background: url("../images/banner1.jpg") center;
   background-size: cover;
   width: 100%;
   height: 450px; }
