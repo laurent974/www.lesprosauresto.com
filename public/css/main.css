@@ -370,6 +370,13 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px; }
 
+a {
+  color: #4ECDC4;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear; }
+  a:hover {
+    color: #9ee3df; }
+
 .burger {
   position: absolute;
   float: left;
@@ -607,6 +614,9 @@ body {
     100% {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }
+
+.Post {
+  margin-top: 30px; }
 
 .Banner {
   background: url("../images/banner.jpg") center;
