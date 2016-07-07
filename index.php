@@ -1,13 +1,15 @@
 <?php get_header(); ?>
-<div class="Content slide">     <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+<section class="Part slide row">
   <?php query_posts('category_name=Accueil'); ?>
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
-       <div class="post">
-         <h1 class="post-title"><?php the_title(); ?></h1>
-         <div class="post-content"> <?php the_content(); ?> </div>
-       </div>
-     <?php endwhile; ?>
-   <?php endif; ?>
-</div><!-- /.Content -->
+      <article class="Post twelve columns">
+        <h1 class="Post-Title Title-H1"><?php the_title(); ?></h1>
+        <p class="Post-Content">
+          <?php the_content(); ?>
+        </p><!-- /.Post-Content -->
+      </article><!-- /.Post -->
+    <?php endwhile; ?>
+  <?php endif; ?>
+</section><!-- /.Content -->
 <?php get_footer(); ?>
