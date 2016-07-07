@@ -1,0 +1,8 @@
+a {
+  color: $pacifica;
+  transition: all .3s linear;
+
+  &:hover {
+    color: lighten($pacifica, 20);
+  }
+}
