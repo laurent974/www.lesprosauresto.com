@@ -8,10 +8,10 @@
     <div class="row">
       <?php while (have_posts()) : the_post(); ?>
         <article class="Post twelve columns">
-          <h1 class="Post-Title Title-H1"><?php the_title(); ?></h1>
-          <p class="Post-Content">
+          <h1 class="Post-Title Title-H1"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></h1>
+          <div class="Post-Content">
             <?php the_content(); ?>
-          </p><!-- /.Post-Content -->
+          </div><!-- /.Post-Content -->
         </article><!-- /.Post -->
       <?php endwhile; ?>
     </div><!-- /.row -->
