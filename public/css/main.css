@@ -374,12 +374,12 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px; }
 
-a {
+.Link {
   color: #4ECDC4;
-  -webkit-transition: all .3s linear;
-  transition: all .3s linear; }
-  a:hover {
-    color: #9ee3df; }
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear; }
+  .Link:hover {
+    color: #288d86; }
 
 .burger {
   position: absolute;
@@ -621,6 +621,16 @@ a {
 
 .Post {
   margin-top: 30px; }
+  .Post .Title span {
+    display: inline-block;
+    vertical-align: text-top;
+    padding-left: 10px; }
+  .Post .Content,
+  .Post p {
+    font-weight: 300; }
+  .Post strong,
+  .Post b {
+    font-weight: 600; }
 
 .Banner {
   background: url("../images/banner1.jpg") center;
