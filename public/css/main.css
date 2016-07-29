@@ -51,6 +51,7 @@ body {
   font-family: 'Raleway', Arial, sans-serif; }
 
 .Global {
+  position: relative;
   overflow: hidden;
   background-color: #280028;
   color: #ffffff;
