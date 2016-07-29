@@ -33,7 +33,7 @@ var makeBgParticles = (function() {
 
     TweenLite.set($star, {
       x:PosX,
-      y:PosY - (size * 2),
+      y:PosY - (size * 10),
       width: size,
       height: size,
       opacity: 0.02
