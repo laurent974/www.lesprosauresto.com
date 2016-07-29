@@ -11,6 +11,7 @@ elixir(function(mix) {
     .scripts([
       'vendor/jquery-3.0.0.js',
       'vendor/trunk.js',
+      'vendor/tweenmax.min.js',
       'app.js'
     ])
     .imagemin();
