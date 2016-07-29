@@ -10118,7 +10118,7 @@ var makeBgParticles = (function() {
      PosY = Math.floor(Math.random() * h);
 
      var size = Math.floor(Math.random()* 200);
-     $('body').append( $star );
+     $('.Global').append( $star );
 
       if(i%2 == 0){
         TweenLite.set($star, {backgroundColor: "#ffcd5e"})
@@ -10129,7 +10129,7 @@ var makeBgParticles = (function() {
 
     TweenLite.set($star, {
       x:PosX,
-      y:PosY - (size * 5),
+      y:PosY,
       width: size,
       height: size,
       opacity: 0.02
