@@ -621,11 +621,13 @@ body {
       transform: translate3d(0, 0, 0); } } }
 
 .Post {
-  margin-top: 30px; }
-  .Post .Title span {
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.1); }
+  .Post-Title span {
     display: inline-block;
     vertical-align: text-top;
-    padding-left: 10px; }
+    padding-left: 10px;
+    font-weight: 900; }
   .Post .Content,
   .Post p {
     font-weight: 300; }
