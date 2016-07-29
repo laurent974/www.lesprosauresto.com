@@ -52,8 +52,8 @@ body {
 
 .Global {
   overflow: hidden;
-  background-color: #ffffff;
-  color: #556270;
+  background-color: #280028;
+  color: #ffffff;
   /*  Prevents Flickering  */
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
