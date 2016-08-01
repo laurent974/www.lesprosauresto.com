@@ -3,6 +3,7 @@
   right: $medium;
   top: $normal;
   background: $reflection;
+  padding: $medium;
 
   p {
     font-size: 14px;
@@ -45,7 +46,7 @@
 
   label,
   .button_div {
-    color: $white;
+    color: $black_rasberry;
     font-size: 12px;
     font-weight: 300;
   }

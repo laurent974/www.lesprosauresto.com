@@ -683,7 +683,8 @@ input[type=submit] {
   position: absolute;
   right: 10px;
   top: 15px;
-  background: #E5EDB8; }
+  background: #E5EDB8;
+  padding: 10px; }
   .Login p {
     font-size: 14px;
     text-align: right;
@@ -715,7 +716,7 @@ input[type=submit] {
     display: none; }
   .Login label,
   .Login .button_div {
-    color: #ffffff;
+    color: #300018;
     font-size: 12px;
     font-weight: 300; }
   .Login label {
