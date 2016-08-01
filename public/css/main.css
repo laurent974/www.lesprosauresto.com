@@ -375,6 +375,13 @@ body {
   margin-bottom: 10px;
   text-align: center; }
 
+.Link {
+  color: #4ECDC4;
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear; }
+  .Link:hover {
+    color: #288d86; }
+
 input[type=text],
 input[type=password] {
   padding: .5em .6em;
@@ -400,17 +407,10 @@ input[type=submit] {
   text-decoration: none;
   border-radius: 2px;
   padding: .5em 1em;
-  background-color: #0078e7;
+  background-color: #gardens;
   color: #ffffff; }
   input[type=submit]:focus {
     outline: 0; }
-
-.Link {
-  color: #4ECDC4;
-  -webkit-transition: all .15s linear;
-  transition: all .15s linear; }
-  .Link:hover {
-    color: #288d86; }
 
 .burger {
   position: absolute;
@@ -684,7 +684,8 @@ input[type=submit] {
   right: 10px;
   top: 15px;
   background: #E5EDB8;
-  padding: 10px; }
+  padding: 10px;
+  border-radius: 3px; }
   .Login p {
     font-size: 14px;
     text-align: right;
@@ -711,7 +712,8 @@ input[type=submit] {
   .Login input[type=submit] {
     display: block;
     width: 100%;
-    margin: 10px auto; }
+    margin: 10px auto;
+    font-weight: 900; }
   .Login legend {
     display: none; }
   .Login label,
