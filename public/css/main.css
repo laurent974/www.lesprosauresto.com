@@ -395,6 +395,7 @@ input[type=submit] {
   white-space: nowrap;
   vertical-align: middle;
   text-align: center;
+  border: 0;
   cursor: pointer;
   text-decoration: none;
   border-radius: 2px;
@@ -702,5 +703,26 @@ input[type=submit] {
     text-decoration: none;
     border-radius: 2px;
     margin-top: 5px; }
+  .Login input[type=text],
+  .Login input[type=password] {
+    max-width: 140px; }
+  .Login legend {
+    display: none; }
+  .Login label,
+  .Login .button_div {
+    color: #300018;
+    font-size: 12px;
+    font-weight: 300; }
+  .Login label {
+    margin-right: 5px; }
+  .Login .div_text {
+    display: inline;
+    margin-right: 10px; }
+  .Login .button_div {
+    margin-top: 10px;
+    text-align: right; }
+  .Login #rememberme {
+    display: inline-block;
+    vertical-align: -2px; }
 
 /*# sourceMappingURL=main.css.map */

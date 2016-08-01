@@ -26,4 +26,39 @@
     border-radius: 2px;
     margin-top: $small;
   }
+
+  input[type=text],
+  input[type=password] {
+    max-width: 140px;
+  }
+
+  legend {
+    display: none;
+  }
+
+  label,
+  .button_div {
+    color: $black_rasberry;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  label {
+    margin-right: $small;
+  }
+
+  .div_text {
+    display: inline;
+    margin-right: $medium;
+  }
+
+  .button_div {
+    margin-top: $medium;
+    text-align: right;
+  }
+
+  #rememberme {
+    display: inline-block;
+    vertical-align: -2px;
+  }
 }
