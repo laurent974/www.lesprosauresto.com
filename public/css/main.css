@@ -681,7 +681,7 @@ input[type=submit] {
 
 .Login {
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 15px;
   background: #E5EDB8;
   padding: 10px;
@@ -700,7 +700,7 @@ input[type=submit] {
     text-align: center;
     cursor: pointer;
     padding: .5em 1em;
-    color: #300018;
+    color: #ffffff;
     border: 1px solid #5A3D31;
     background-color: #5A3D31;
     text-decoration: none;

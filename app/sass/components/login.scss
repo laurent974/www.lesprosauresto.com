@@ -1,6 +1,6 @@
 .Login {
   position: absolute;
-  right: $medium;
+  right: $normal;
   top: $normal;
   background: $reflection;
   padding: $medium;
@@ -22,7 +22,7 @@
     text-align: center;
     cursor: pointer;
     padding: .5em 1em;
-    color: $black_rasberry;
+    color: $white;
     border: 1px solid $peace_goodwill;
     background-color: $peace_goodwill;
     text-decoration: none;
