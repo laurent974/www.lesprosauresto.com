@@ -4,11 +4,14 @@
   top: $medium;
 
   p {
+    font-size: 14px;
+    text-align: right;
     color: $black_rasberry;
   }
 
   a[href="/?a=logout"] {
     display: inline-block;
+    font-size: 12px;
     zoom: 1;
     line-height: normal;
     white-space: nowrap;
@@ -17,7 +20,6 @@
     cursor: pointer;
     padding: .5em 1em;
     color: $white;
-    color: rgba(0,0,0,.8);
     border: 1px solid $peace_goodwill;
     background-color: $peace_goodwill;
     text-decoration: none;
