@@ -1,12 +1,13 @@
 .Login {
   position: absolute;
   right: $medium;
-  top: $medium;
+  top: $normal;
+  background: $gardens;
 
   p {
     font-size: 14px;
     text-align: right;
-    color: $black_rasberry;
+    color: $white;
   }
 
   a[href="/?a=logout"] {
@@ -38,7 +39,7 @@
 
   label,
   .button_div {
-    color: $black_rasberry;
+    color: $white;
     font-size: 12px;
     font-weight: 300;
   }

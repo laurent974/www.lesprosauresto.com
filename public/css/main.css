@@ -538,7 +538,7 @@ input[type=submit] {
               color: #556270; } }
 
 .Header {
-  height: 100px;
+  height: 60px;
   background-color: #ffffff; }
   @media (max-width: 767px) {
     .Header {
@@ -682,11 +682,12 @@ input[type=submit] {
 .Login {
   position: absolute;
   right: 10px;
-  top: 10px; }
+  top: 15px;
+  background: #ADB85F; }
   .Login p {
     font-size: 14px;
     text-align: right;
-    color: #300018; }
+    color: #ffffff; }
   .Login a[href="/?a=logout"] {
     display: inline-block;
     font-size: 12px;
@@ -710,7 +711,7 @@ input[type=submit] {
     display: none; }
   .Login label,
   .Login .button_div {
-    color: #300018;
+    color: #ffffff;
     font-size: 12px;
     font-weight: 300; }
   .Login label {
