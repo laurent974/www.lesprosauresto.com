@@ -685,7 +685,8 @@ input[type=submit] {
   top: 15px;
   background: #E5EDB8;
   padding: 10px;
-  border-radius: 3px; }
+  border-radius: 3px;
+  z-index: 10; }
   .Login p {
     font-size: 14px;
     text-align: right;
