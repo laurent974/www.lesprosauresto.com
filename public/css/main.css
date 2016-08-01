@@ -375,6 +375,14 @@ body {
   margin-bottom: 10px;
   text-align: center; }
 
+input[type=text] {
+  padding: .5em .6em;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+  vertical-align: middle; }
+
 .Link {
   color: #4ECDC4;
   -webkit-transition: all .15s linear;
