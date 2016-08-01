@@ -403,7 +403,8 @@ body {
 .Navbar {
   position: absolute;
   top: 12px;
-  right: 5px; }
+  left: 50%;
+  margin-left: -150px; }
   .Navbar li {
     float: left;
     display: inline-block; }

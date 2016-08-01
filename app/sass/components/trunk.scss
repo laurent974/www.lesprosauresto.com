@@ -26,7 +26,8 @@
 .Navbar {
 	position: absolute;
 	top: 12px;
-	right: $small;
+	left: 50%;
+	margin-left: -150px;
 
 	li {
 		float: left;
