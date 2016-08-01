@@ -690,7 +690,7 @@ input[type=submit] {
     font-size: 14px;
     text-align: right;
     color: #300018; }
-  .Login a[href="/?a=logout"] {
+  .Login a[href*="a=logout"] {
     display: inline-block;
     font-size: 12px;
     zoom: 1;
