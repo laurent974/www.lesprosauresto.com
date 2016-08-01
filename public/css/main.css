@@ -653,5 +653,20 @@ body {
   top: 10px; }
   .Login p {
     color: #300018; }
+  .Login a[href="/?a=logout"] {
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    padding: .5em 1em;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #5A3D31;
+    background-color: #5A3D31;
+    text-decoration: none;
+    border-radius: 2px; }
 
 /*# sourceMappingURL=main.css.map */
