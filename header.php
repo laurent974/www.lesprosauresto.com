@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/public/css/main.css" media="screen" title="no title" charset="utf-8">
+
+    <?php wp_head(); ?>
   </head>
   <body>
     <main class="Global">
