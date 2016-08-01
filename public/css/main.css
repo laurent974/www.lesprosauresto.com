@@ -647,4 +647,11 @@ body {
   border-radius: 100%;
   position: absolute; }
 
+.Login {
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+  .Login p {
+    color: #300018; }
+
 /*# sourceMappingURL=main.css.map */
