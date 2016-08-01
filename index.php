@@ -1,7 +1,9 @@
 <?php get_header(); ?>
-<div class="Banner">
-  <p>Les pros au reso !</p>
-</div>
+<!--<div class="Banner">-->
+  <?php
+    echo do_shortcode('[smartslider3 slider=2]');
+  ?>
+<!--</div>-->
 <section class="Part slide">
   <?php query_posts('category_name=Accueil'); ?>
   <?php if (have_posts()) : ?>
