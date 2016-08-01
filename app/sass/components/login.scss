@@ -2,12 +2,12 @@
   position: absolute;
   right: $medium;
   top: $normal;
-  background: $gardens;
+  background: $reflection;
 
   p {
     font-size: 14px;
     text-align: right;
-    color: $white;
+    color: $black_rasberry;
   }
 
   a[href="/?a=logout"] {
@@ -20,7 +20,7 @@
     text-align: center;
     cursor: pointer;
     padding: .5em 1em;
-    color: $white;
+    color: $black_rasberry;
     border: 1px solid $peace_goodwill;
     background-color: $peace_goodwill;
     text-decoration: none;
@@ -31,6 +31,12 @@
   input[type=text],
   input[type=password] {
     max-width: 140px;
+  }
+
+  input[type=submit] {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
   }
 
   legend {
@@ -45,17 +51,17 @@
   }
 
   label {
-    margin-right: $small;
+    display: block;
+    margin-top: $medium;
   }
 
   .div_text {
-    display: inline;
-    margin-right: $medium;
+    margin-top: $small;
+    text-align: center;
   }
 
   .button_div {
     margin-top: $medium;
-    text-align: right;
   }
 
   #rememberme {

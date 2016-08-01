@@ -683,11 +683,11 @@ input[type=submit] {
   position: absolute;
   right: 10px;
   top: 15px;
-  background: #ADB85F; }
+  background: #E5EDB8; }
   .Login p {
     font-size: 14px;
     text-align: right;
-    color: #ffffff; }
+    color: #300018; }
   .Login a[href="/?a=logout"] {
     display: inline-block;
     font-size: 12px;
@@ -698,7 +698,7 @@ input[type=submit] {
     text-align: center;
     cursor: pointer;
     padding: .5em 1em;
-    color: #ffffff;
+    color: #300018;
     border: 1px solid #5A3D31;
     background-color: #5A3D31;
     text-decoration: none;
@@ -707,6 +707,10 @@ input[type=submit] {
   .Login input[type=text],
   .Login input[type=password] {
     max-width: 140px; }
+  .Login input[type=submit] {
+    display: block;
+    width: 100%;
+    margin: 10px auto; }
   .Login legend {
     display: none; }
   .Login label,
@@ -715,13 +719,13 @@ input[type=submit] {
     font-size: 12px;
     font-weight: 300; }
   .Login label {
-    margin-right: 5px; }
+    display: block;
+    margin-top: 10px; }
   .Login .div_text {
-    display: inline;
-    margin-right: 10px; }
+    margin-top: 5px;
+    text-align: center; }
   .Login .button_div {
-    margin-top: 10px;
-    text-align: right; }
+    margin-top: 10px; }
   .Login #rememberme {
     display: inline-block;
     vertical-align: -2px; }
