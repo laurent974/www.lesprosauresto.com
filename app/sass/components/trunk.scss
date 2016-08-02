@@ -62,18 +62,18 @@
 		}
 
 		.sub-menu a {
-			&:after {
+			&:before {
 				content: '';
 			}
 
-			&:before {
+			&:after {
 				content: '\25c4';
 				padding-right: 0.5em;
 			}
 		}
 
 		.sub-menu .sub-menu a {
-			&:before {
+			&:after {
 				content: '';
 			}
 		}
