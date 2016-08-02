@@ -757,7 +757,8 @@ input[type=submit] {
       font-size: 12px;
       padding: 0; }
 
-#wpmem_login {
+#wpmem_login,
+#wpmem_reg {
   color: inherit !important; }
 
 /*# sourceMappingURL=main.css.map */
