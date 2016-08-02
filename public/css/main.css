@@ -727,6 +727,8 @@ input[type=submit] {
   .Login label {
     display: block;
     margin-top: 10px; }
+    .Login label:first-child {
+      margin-top: 0; }
   .Login .div_text {
     margin-top: 5px;
     text-align: center; }
@@ -750,6 +752,7 @@ input[type=submit] {
       margin-bottom: 10px;
       text-align: left; }
     .Login #wpmem_login .link-text {
+      color: #300018;
       width: 100%;
       font-size: 12px;
       padding: 0; }

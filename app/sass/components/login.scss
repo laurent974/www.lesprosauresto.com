@@ -57,6 +57,10 @@
   label {
     display: block;
     margin-top: $medium;
+
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   .div_text {
@@ -95,6 +99,7 @@
     }
 
     .link-text {
+      color: $black_rasberry;
       width: 100%;
       font-size: 12px;
       padding: 0;
