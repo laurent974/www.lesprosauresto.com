@@ -733,5 +733,22 @@ input[type=submit] {
   .Login #rememberme {
     display: inline-block;
     vertical-align: -2px; }
+  .Login #wpmem_login {
+    font-family: 'Raleaway';
+    font-size: 14px; }
+    .Login #wpmem_login fieldset {
+      margin: 0; }
+    .Login #wpmem_login .div_text {
+      width: 100%;
+      margin: 5px 0 0 0; }
+    .Login #wpmem_login .button_div {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin-bottom: 10px; }
+    .Login #wpmem_login .link-text {
+      width: 100%;
+      font-size: 12px;
+      padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
