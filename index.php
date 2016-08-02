@@ -12,7 +12,7 @@
         <article class="Post twelve columns">
           <h1 class="Post-Title Title-H1"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></a></h1>
           <div class="Post-Content">
-            <?php if ( has_post_thumbnail() ) { ?> // check if the post has a Post Thumbnail assigned to it.
+            <?php if ( has_post_thumbnail() ) { ?>
                 <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
             <?php } ?>
             <?php the_content(); ?>
