@@ -758,6 +758,6 @@ input[type=submit] {
       padding: 0; }
 
 #wpmem_login {
-  color: inherit; }
+  color: inherit !important; }
 
 /*# sourceMappingURL=main.css.map */
