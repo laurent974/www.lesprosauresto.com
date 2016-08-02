@@ -80,7 +80,6 @@
   #wpmem_login {
     font-family: 'Raleway';
     font-size: 14px;
-    color: inherit;
 
     fieldset {
       margin: 0;
@@ -106,4 +105,8 @@
       padding: 0;
     }
   }
+}
+
+#wpmem_login {
+  color: inherit;
 }
