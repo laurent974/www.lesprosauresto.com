@@ -10,13 +10,11 @@
     <div class="row">
       <?php while (have_posts()) : the_post(); ?>
         <article class="Post twelve columns">
-          <h1 class="Post-Title Title-H1"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></h1>
+          <h1 class="Post-Title Title-H1"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></a></h1>
           <div class="Post-Content">
-            <?php
-              if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-                the_post_thumbnail('medium');
-              }
-            ?>
+            <?php if ( has_post_thumbnail() ) { ?> // check if the post has a Post Thumbnail assigned to it.
+                <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+            <?php } ?>
             <?php the_content(); ?>
           </div><!-- /.Post-Content -->
           <footer>
