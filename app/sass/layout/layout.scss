@@ -19,3 +19,8 @@ body {
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 }
+
+.sz-google-drive {
+  z-index: 100;
+  background: $white;
+}

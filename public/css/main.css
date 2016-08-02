@@ -60,6 +60,10 @@ body {
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden; }
 
+.sz-google-drive {
+  z-index: 100;
+  background: #ffffff; }
+
 /*
  * Pills
  * A simple, responsive, and tiny CSS grid for humans who don't like memorising all those cryptic codes like col-*-6 or something.
