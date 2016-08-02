@@ -1,11 +1,16 @@
 <?php get_header(); ?>
   <section class="Part slide">
-    <div class="row">
     <?php
     	// Start the Loop.
     	while ( have_posts() ) : the_post(); ?>
+
+      <?php if ( has_post_thumbnail() ) { ?>
+          <?php the_post_thumbnail(); ?>
+      <?php } ?>
+      
+      <div class="row">
       <article class="Post twelve columns">
-        <h1 class="Post-Title Title-H1"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></a></h1>
+        <h1 class="Post-Title Title-H1"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></h1>
         <?php
       		 the_content();
 
@@ -15,10 +20,6 @@
       		} ?>
         </article>
     	<?php endwhile; ?>
-
-    <?php if ( has_post_thumbnail() ) { ?>
-        <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
-    <?php } ?>
   </div>
   </section>
 <?php get_footer(); ?>
