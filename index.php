@@ -15,7 +15,7 @@
             <?php the_content(); ?>
           </div><!-- /.Post-Content -->
           <footer>
-             <?php comments_number( $zero, $one, $more ); ?>
+             <?php comments_number( 'no responses', 'one response', '% responses' ); ?>.
           </footer>
         </article><!-- /.Post -->
       <?php endwhile; ?>
