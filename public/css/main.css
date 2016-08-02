@@ -739,7 +739,8 @@ input[type=submit] {
     vertical-align: -2px; }
   .Login #wpmem_login {
     font-family: 'Raleway';
-    font-size: 14px; }
+    font-size: 14px;
+    color: inherit; }
     .Login #wpmem_login fieldset {
       margin: 0; }
     .Login #wpmem_login .div_text {
