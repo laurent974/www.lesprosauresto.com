@@ -458,7 +458,7 @@ input[type=submit] {
     .Navbar .menu-item-has-children .sub-menu a:before {
       content: ''; }
     .Navbar .menu-item-has-children .sub-menu a:after {
-      content: '\25c4';
+      content: '\25b8';
       padding-right: 0.5em; }
     .Navbar .menu-item-has-children .sub-menu .sub-menu a:after {
       content: ''; }
