@@ -15,7 +15,11 @@
             <?php the_content(); ?>
           </div><!-- /.Post-Content -->
           <footer>
-             <?php comments_number( 'no responses', 'one response', '% responses' ); ?>.
+            <?php
+              if(function_exists('like_counter_p')) { like_counter_p('J\'aime !'); }
+              if(function_exists('dislike_counter_p')) { dislike_counter_p('J\'aime pas !'); }
+            ?>
+             <?php comments_number( '<i class="material-icons">&#xE0CA;</i> 0', '<i class="material-icons">&#xE0C9;</i> 1', '<i class="material-icons">&#xE0C9;</i> %' ); ?>.
           </footer>
         </article><!-- /.Post -->
       <?php endwhile; ?>
