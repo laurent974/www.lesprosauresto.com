@@ -375,11 +375,13 @@ body {
   margin-bottom: 10px;
   text-align: center; }
 
-.Link {
+.Link,
+a {
   color: #4ECDC4;
   -webkit-transition: all .15s linear;
   transition: all .15s linear; }
-  .Link:hover {
+  .Link:hover,
+  a:hover {
     color: #288d86; }
 
 input[type=text],
