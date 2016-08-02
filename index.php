@@ -14,6 +14,9 @@
           <div class="Post-Content">
             <?php the_content(); ?>
           </div><!-- /.Post-Content -->
+          <footer>
+             <?php comments_number( $zero, $one, $more ); ?>
+          </footer>
         </article><!-- /.Post -->
       <?php endwhile; ?>
     </div><!-- /.row -->
