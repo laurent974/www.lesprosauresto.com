@@ -12,6 +12,11 @@
         <article class="Post twelve columns">
           <h1 class="Post-Title Title-H1"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></h1>
           <div class="Post-Content">
+            <?php
+              if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+                the_post_thumbnail();
+              }
+            ?>
             <?php the_content(); ?>
           </div><!-- /.Post-Content -->
           <footer>
@@ -19,7 +24,7 @@
               if(function_exists('like_counter_p')) { like_counter_p('J\'aime !'); }
               if(function_exists('dislike_counter_p')) { dislike_counter_p('J\'aime pas !'); }
             ?>
-             <?php comments_number( '<i class="material-icons">&#xE0CA;</i> 0', '<i class="material-icons">&#xE0C9;</i> 1', '<i class="material-icons">&#xE0C9;</i> %' ); ?>.
+             <?php comments_number( '<i class="material-icons">&#xE0CA;</i> 0', '<i class="material-icons">&#xE0C9;</i> 1', '<i class="material-icons">&#xE0C9;</i> %' ); ?>
           </footer>
         </article><!-- /.Post -->
       <?php endwhile; ?>
