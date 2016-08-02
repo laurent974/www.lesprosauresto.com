@@ -471,7 +471,7 @@ input[type=submit] {
   .Navbar .sub-menu li {
     min-width: 180px; }
   .Navbar .sub-menu .sub-menu {
-    right: 100%;
+    left: 100%;
     top: 0; }
   .Navbar .sub-menu a {
     background: #ffffff;
