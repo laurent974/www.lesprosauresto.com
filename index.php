@@ -17,7 +17,7 @@
                   <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
               <?php } ?>
             </div>
-            <div class="eight columns">
+            <?php if ( has_post_thumbnail() ) { ?><div class="eight columns"> <?php } ?>
               <?php the_content(); ?>
 
               <footer>
@@ -27,7 +27,7 @@
                 ?>
                  <?php comments_number( '<i class="material-icons">&#xE0CA;</i> 0', '<i class="material-icons">&#xE0C9;</i> 1', '<i class="material-icons">&#xE0C9;</i> %' ); ?>
               </footer>
-            </div>
+            <?php if ( has_post_thumbnail() ) { ?> </div> <?php } ?>
           </div><!-- /.Post-Content -->
 
         </article><!-- /.Post -->
