@@ -12,12 +12,12 @@
         <article class="Post twelve columns">
           <h1 class="Post-Title Title-H1"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></a></h1>
           <div class="Post-Content">
-            <div class="six columns">
+            <div class="four columns">
               <?php if ( has_post_thumbnail() ) { ?>
                   <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
               <?php } ?>
             </div>
-            <div class="six columns">
+            <div class="eight columns">
               <?php the_content(); ?>
             </div>
           </div><!-- /.Post-Content -->
