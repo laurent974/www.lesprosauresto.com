@@ -417,6 +417,22 @@ input[type=submit] {
   input[type=submit]:focus {
     outline: 0; }
 
+.Button {
+  display: inline-block;
+  font-size: 12px;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  padding: .5em 1em;
+  color: #ffffff;
+  border: 1px solid #5A3D31;
+  background-color: #5A3D31;
+  text-decoration: none;
+  border-radius: 2px; }
+
 .burger {
   position: absolute;
   float: left;
@@ -671,6 +687,10 @@ input[type=submit] {
   .Post strong,
   .Post b {
     font-weight: 600; }
+  .Post footer {
+    margin-top: 10px; }
+    .Post footer .material-icons {
+      font-size: 12px; }
 
 .Banner {
   background: url("../images/banner1.jpg") center;
