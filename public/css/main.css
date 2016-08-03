@@ -691,7 +691,7 @@ input[type=submit] {
     font-weight: 600; }
   .Post footer {
     margin-top: 20px;
-    padding: 0 20px 0 0;
+    padding: 10px 0 0;
     border-top: 1px solid #ADB85F; }
     .Post footer .material-icons {
       font-size: 12px; }
