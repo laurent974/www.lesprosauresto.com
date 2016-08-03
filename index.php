@@ -27,7 +27,7 @@
                 ?>
                  <?php comments_number( '<i class="material-icons">&#xE0CA;</i> 0', '<i class="material-icons">&#xE0C9;</i> 1', '<i class="material-icons">&#xE0C9;</i> %' ); ?>
                  <a class="Button Button--readMore" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">Lire la suite</a>
-              </footer>
+              </footer> 
             <?php if ( has_post_thumbnail() ) { ?> </div> <?php } ?>
           </div><!-- /.Post-Content -->
 
