@@ -432,6 +432,8 @@ input[type=submit] {
   background-color: #5A3D31;
   text-decoration: none;
   border-radius: 2px; }
+  .Button--readMore {
+    float: right; }
 
 .burger {
   position: absolute;
@@ -688,7 +690,10 @@ input[type=submit] {
   .Post b {
     font-weight: 600; }
   .Post footer {
-    margin-top: 10px; }
+    margin-top: 20px;
+    padding: 10px 20px 0 0;
+    text-align: right;
+    border-top: 1px solid #ADB85F; }
     .Post footer .material-icons {
       font-size: 12px; }
 
