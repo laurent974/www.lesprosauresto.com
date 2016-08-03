@@ -16,5 +16,9 @@
 
   &--readMore {
     float: right;
+
+    &:hover {
+      color: $reflection;
+    }
   }
 }
