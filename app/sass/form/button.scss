@@ -1,0 +1,16 @@
+.Button {
+  display: inline-block;
+  font-size: 12px;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  padding: .5em 1em;
+  color: $white;
+  border: 1px solid $peace_goodwill;
+  background-color: $peace_goodwill;
+  text-decoration: none;
+  border-radius: 2px;
+}
