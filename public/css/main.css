@@ -764,12 +764,12 @@ input[type=submit] {
 #wpmem_reg {
   color: inherit !important; }
 
-.ldc-ul_cont {
-  background-color: transparent;
-  background-image: none;
-  border-color: transparent;
-  box-shadow: none;
-  text-shadow: none;
+.Post-Content .ldc-ul_cont {
+  background-color: transparent !important;
+  background-image: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
   border-radius: 0;
   border-style: none;
   height: auto;
