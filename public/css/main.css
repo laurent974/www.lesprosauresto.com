@@ -412,7 +412,7 @@ input[type=submit] {
   text-decoration: none;
   border-radius: 2px;
   padding: .5em 1em;
-  background-color: #ADB85F;
+  background-color: #A80000;
   color: #ffffff; }
   input[type=submit]:focus {
     outline: 0; }
@@ -789,7 +789,7 @@ input[type=submit] {
       margin-bottom: 10px;
       text-align: left; }
     .Login #wpmem_login .link-text {
-      color: #A80000;
+      color: #3E4147;
       width: 100%;
       font-size: 12px;
       padding: 0; }
