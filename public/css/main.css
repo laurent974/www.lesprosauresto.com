@@ -380,12 +380,12 @@ body {
 
 .Link,
 a {
-  color: #4ECDC4;
+  color: #A80000;
   -webkit-transition: all .15s linear;
   transition: all .15s linear; }
   .Link:hover,
   a:hover {
-    color: #288d86; }
+    color: #420000; }
 
 input[type=text],
 input[type=password] {

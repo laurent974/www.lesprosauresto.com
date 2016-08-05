@@ -1,9 +1,9 @@
 .Link,
 a {
-  color: $pacifica;
+  color: $asian_red;
   transition: all .15s linear;
 
   &:hover {
-    color: darken($pacifica, 20);
+    color: darken($asian_red, 20);
   }
 }
