@@ -2,7 +2,7 @@
   position: absolute;
   right: $normal;
   top: $normal;
-  background: $reflection;
+  background: $death2;
   padding: $medium;
   border-radius: 3px;
   z-index: 10;
@@ -10,7 +10,7 @@
   p {
     font-size: 14px;
     text-align: right;
-    color: $black_rasberry;
+    color: $bicycles_tyres;
   }
 
   a[href*="a=logout"] {
@@ -24,8 +24,8 @@
     cursor: pointer;
     padding: .5em 1em;
     color: $white;
-    border: 1px solid $peace_goodwill;
-    background-color: $peace_goodwill;
+    border: 1px solid $asian_red;
+    background-color: $asian_red;
     text-decoration: none;
     border-radius: 2px;
     margin-top: $small;
@@ -49,7 +49,7 @@
 
   label,
   .button_div {
-    color: $black_rasberry;
+    color: $bicycles_tyres;
     font-size: 12px;
     font-weight: 300;
   }
@@ -99,7 +99,7 @@
     }
 
     .link-text {
-      color: $black_rasberry;
+      color: $asian_red;
       width: 100%;
       font-size: 12px;
       padding: 0;

@@ -53,7 +53,7 @@ body {
 .Global {
   position: relative;
   overflow: hidden;
-  background-color: #e9edf5;
+  background-color: #aaaaaa;
   color: #3E4147;
   /*  Prevents Flickering  */
   -webkit-backface-visibility: hidden;
@@ -722,14 +722,14 @@ input[type=submit] {
   position: absolute;
   right: 15px;
   top: 15px;
-  background: #E5EDB8;
+  background: #aaaaaa;
   padding: 10px;
   border-radius: 3px;
   z-index: 10; }
   .Login p {
     font-size: 14px;
     text-align: right;
-    color: #300018; }
+    color: #3E4147; }
   .Login a[href*="a=logout"] {
     display: inline-block;
     font-size: 12px;
@@ -741,8 +741,8 @@ input[type=submit] {
     cursor: pointer;
     padding: .5em 1em;
     color: #ffffff;
-    border: 1px solid #5A3D31;
-    background-color: #5A3D31;
+    border: 1px solid #A80000;
+    background-color: #A80000;
     text-decoration: none;
     border-radius: 2px;
     margin-top: 5px; }
@@ -758,7 +758,7 @@ input[type=submit] {
     display: none; }
   .Login label,
   .Login .button_div {
-    color: #300018;
+    color: #3E4147;
     font-size: 12px;
     font-weight: 300; }
   .Login label {
@@ -789,7 +789,7 @@ input[type=submit] {
       margin-bottom: 10px;
       text-align: left; }
     .Login #wpmem_login .link-text {
-      color: #300018;
+      color: #A80000;
       width: 100%;
       font-size: 12px;
       padding: 0; }
