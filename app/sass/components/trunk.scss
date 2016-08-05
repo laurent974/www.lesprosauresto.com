@@ -35,7 +35,7 @@
 
 		a {
 			font-size: 15px;
-			color: $glowing_effect_tower;
+			color: $sunrise_glow;
 			padding: $medium $normal;
 			display: block;
 			font-weight: 300;
@@ -49,6 +49,7 @@
 		&.current-menu-item {
 			& > a {
 				font-weight: 700;
+				color: $glowing_effect_tower;
 			}
 		}
 	}
@@ -105,8 +106,8 @@
 
 	li:hover > a,
 	.sub-menu:hover > a {
-		color: $sunrise_glow;
-		background-color: $bicycles_tyres;
+		color: $bicycles_tyres;
+		background-color: $sunrise_glow;
 		text-shadow:none;
 	}
 
