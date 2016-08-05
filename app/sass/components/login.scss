@@ -2,7 +2,7 @@
   position: absolute;
   right: $normal;
   top: $normal;
-  background: $death2;
+  background: $bicycles_tyres;
   padding: $medium;
   border-radius: 3px;
   z-index: 10;
@@ -10,7 +10,7 @@
   p {
     font-size: 14px;
     text-align: right;
-    color: $bicycles_tyres;
+    color: $death2;
   }
 
   a[href*="a=logout"] {

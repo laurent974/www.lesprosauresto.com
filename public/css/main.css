@@ -53,7 +53,7 @@ body {
 .Global {
   position: relative;
   overflow: hidden;
-  background-color: #aaaaaa;
+  background-color: #e9edf5;
   color: #3E4147;
   /*  Prevents Flickering  */
   -webkit-backface-visibility: hidden;
@@ -722,14 +722,14 @@ input[type=submit] {
   position: absolute;
   right: 15px;
   top: 15px;
-  background: #aaaaaa;
+  background: #3E4147;
   padding: 10px;
   border-radius: 3px;
   z-index: 10; }
   .Login p {
     font-size: 14px;
     text-align: right;
-    color: #3E4147; }
+    color: #e9edf5; }
   .Login a[href*="a=logout"] {
     display: inline-block;
     font-size: 12px;
