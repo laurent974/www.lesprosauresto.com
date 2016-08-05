@@ -463,7 +463,8 @@ input[type=submit] {
   margin-left: -150px; }
   .Navbar li {
     float: left;
-    display: inline-block; }
+    display: inline-block;
+    margin-left: 5px; }
     .Navbar li a {
       font-size: 15px;
       color: #FFFEDF;
