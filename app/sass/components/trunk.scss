@@ -49,7 +49,8 @@
 		&.current-menu-item {
 			& > a {
 				font-weight: 700;
-				color: $glowing_effect_tower;
+				color: $bicycles_tyres;
+				background: $sunrise_glow;
 			}
 		}
 	}

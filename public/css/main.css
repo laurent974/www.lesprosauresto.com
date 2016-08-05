@@ -475,7 +475,8 @@ input[type=submit] {
       color: #FFFEDF; }
     .Navbar li.current-menu-item > a {
       font-weight: 700;
-      color: #DFBA69; }
+      color: #3E4147;
+      background: #FFFEDF; }
   .Navbar .menu-item-has-children {
     position: relative; }
     .Navbar .menu-item-has-children a:after {
