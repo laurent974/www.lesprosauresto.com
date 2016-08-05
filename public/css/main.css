@@ -470,7 +470,8 @@ input[type=submit] {
       padding: 10px 15px;
       display: block;
       font-weight: 300;
-      text-decoration: none; }
+      text-decoration: none;
+      border-radius: 2px; }
     .Navbar li:hover {
       color: #FFFEDF; }
     .Navbar li.current-menu-item > a {
