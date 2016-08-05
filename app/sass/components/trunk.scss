@@ -9,13 +9,13 @@
 	li {
 		width: 30px;
 		height: 4px;
-		background-color: $black;
+		background-color: $bicycles_tyres;
 		border-radius: 3px;
 		margin: $small 0;
 	}
 
 	&.open li {
-		background-color: #d9dde1;
+		background-color: $sunrise_glow;
 	}
 
 	@include mq(xs) {
@@ -35,7 +35,7 @@
 
 		a {
 			font-size: 15px;
-			color: $black;
+			color: $glowing_effect_tower;
 			padding: $medium $normal;
 			display: block;
 			font-weight: 300;
@@ -43,7 +43,7 @@
 		}
 
 		&:hover {
-			color: $black;
+			color: $sunrise_glow;
 		}
 
 		&.current-menu-item {
@@ -97,7 +97,7 @@
 	}
 
 	.sub-menu a {
-		background: $white;
+		background: $asian_red;
 		line-height: 1em;
 		padding: $normal;
 		height: auto;
@@ -105,8 +105,8 @@
 
 	li:hover > a,
 	.sub-menu:hover > a {
-		color: $black;
-		background-color:#379cc2;
+		color: $sunrise_glow;
+		background-color: $bicycles_tyres;
 		text-shadow:none;
 	}
 
@@ -195,12 +195,12 @@
 
 .Header {
 	height: 60px;
-	background-color: $white;
+	background-color: $asian_red;
 
 	@include mq(xs) {
 		display: block;
 		z-index: 2;
-		background-color: $white;
+		background-color: $asian_red;
 
 		position: fixed;
 		top: 0;

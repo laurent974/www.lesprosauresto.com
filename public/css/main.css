@@ -447,11 +447,11 @@ input[type=submit] {
   .burger li {
     width: 30px;
     height: 4px;
-    background-color: #556270;
+    background-color: #3E4147;
     border-radius: 3px;
     margin: 5px 0; }
   .burger.open li {
-    background-color: #d9dde1; }
+    background-color: #FFFEDF; }
   @media (max-width: 767px) {
     .burger {
       display: block; } }
@@ -466,13 +466,13 @@ input[type=submit] {
     display: inline-block; }
     .Navbar li a {
       font-size: 15px;
-      color: #556270;
+      color: #DFBA69;
       padding: 10px 15px;
       display: block;
       font-weight: 300;
       text-decoration: none; }
     .Navbar li:hover {
-      color: #556270; }
+      color: #FFFEDF; }
     .Navbar li.current-menu-item > a {
       font-weight: 700; }
   .Navbar .menu-item-has-children {
@@ -499,14 +499,14 @@ input[type=submit] {
     left: 100%;
     top: 0; }
   .Navbar .sub-menu a {
-    background: #ffffff;
+    background: #A80000;
     line-height: 1em;
     padding: 15px;
     height: auto; }
   .Navbar li:hover > a,
   .Navbar .sub-menu:hover > a {
-    color: #556270;
-    background-color: #379cc2;
+    color: #FFFEDF;
+    background-color: #3E4147;
     text-shadow: none; }
   .Navbar ul li:hover > ul {
     display: block; }
@@ -564,12 +564,12 @@ input[type=submit] {
 
 .Header {
   height: 60px;
-  background-color: #ffffff; }
+  background-color: #A80000; }
   @media (max-width: 767px) {
     .Header {
       display: block;
       z-index: 2;
-      background-color: #ffffff;
+      background-color: #A80000;
       position: fixed;
       top: 0;
       right: 0;
@@ -688,7 +688,7 @@ input[type=submit] {
     font-weight: 900;
     color: #A80000; }
   .Post-Title .material-icons {
-    color: #DFBA69; }
+    color: #A80000; }
   .Post .Content,
   .Post p {
     font-weight: 300; }
