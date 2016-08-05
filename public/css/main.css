@@ -428,8 +428,8 @@ input[type=submit] {
   cursor: pointer;
   padding: .5em 1em;
   color: #ffffff;
-  border: 1px solid #5A3D31;
-  background-color: #5A3D31;
+  border: 1px solid #A80000;
+  background-color: #A80000;
   text-decoration: none;
   border-radius: 2px; }
   .Button--readMore {
@@ -695,7 +695,7 @@ input[type=submit] {
   .Post footer {
     margin-top: 15px;
     padding: 15px 0 0 0;
-    border-top: 1px solid #ADB85F; }
+    border-top: 1px solid #DFBA69; }
     .Post footer .material-icons {
       font-size: 12px; }
 
