@@ -463,10 +463,11 @@ input[type=submit] {
   text-align: center; }
   .Navbar .menu-website-container {
     display: inline-block; }
+  .Navbar > li {
+    margin-left: 5px; }
   .Navbar li {
     float: left;
-    display: inline-block;
-    margin-left: 5px; }
+    display: inline-block; }
     .Navbar li a {
       font-size: 15px;
       color: #FFFEDF;
