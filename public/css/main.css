@@ -459,8 +459,8 @@ input[type=submit] {
 .Navbar {
   position: absolute;
   top: 12px;
-  left: 50%;
-  margin-left: -150px; }
+  width: 100%;
+  text-align: center; }
   .Navbar li {
     float: left;
     display: inline-block;
