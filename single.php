@@ -5,9 +5,9 @@
     	while ( have_posts() ) : the_post(); ?>
 
       <?php if ( has_post_thumbnail() ) { ?>
-          <?php the_post_thumbnail(); ?>
+          <?php the_post_thumbnail( array(1920,300) ); ?>
       <?php } ?>
-      
+
       <div class="row">
       <article class="Post twelve columns">
         <h1 class="Post-Title Title-H1"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></h1>
