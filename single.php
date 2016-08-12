@@ -5,7 +5,7 @@
     	while ( have_posts() ) : the_post(); ?>
 
       <?php if ( has_post_thumbnail() ) { ?>
-          <?php the_post_thumbnail( 'single_thumbnail' ); ?>
+          <?php the_post_thumbnail(); ?>
       <?php } ?>
 
       <div class="row">
