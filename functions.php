@@ -9,6 +9,6 @@ if ( function_exists( 'add_theme_support' ) ) {
 }
 
 if (function_exists('add_image_size')) {
-     add_image_size('single_thumbnail', 1920, 400, true);
+     add_image_size('single_thumbnail', 1920, 400, false);
 }
 ?>
