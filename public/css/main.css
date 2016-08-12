@@ -461,6 +461,8 @@ input[type=submit] {
   top: 12px;
   width: 100%;
   text-align: center; }
+  .Navbar .menu-website-container {
+    display: inline-block; }
   .Navbar li {
     float: left;
     display: inline-block;
