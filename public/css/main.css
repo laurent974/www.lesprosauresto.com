@@ -441,7 +441,9 @@ input[type=submit] {
 textarea {
   border: 0;
   border-radius: 2px;
-  font-family: "Raleway"; }
+  font-family: "Raleway";
+  padding: 10px;
+  font-size: 14px; }
 
 .Part-SingleThumbnail {
   width: 100%;
