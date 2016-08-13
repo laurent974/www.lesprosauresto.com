@@ -95,7 +95,7 @@
 
 			<!--<p><small><strong>XHTML:</strong> <?php _e('Vous pouvez utiliser ces tags&#58;'); ?> <?php echo allowed_tags(); ?></small></p>-->
 
-			<p><textarea name="comment" id="comment" cols="60" rows="10" tabindex="4"></textarea></p>
+			<p><textarea name="comment" id="comment" cols="60" rows="10" tabindex="4" placeholder="Rédiger votre message"></textarea></p>
 
 			<p><input name="submit" type="submit" id="submit" tabindex="5" value="Envoyer" />
 			<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
