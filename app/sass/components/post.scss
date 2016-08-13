@@ -34,6 +34,16 @@
           margin-top: $small;
         }
 
+        input[type=text],
+        input[type=email],
+        textarea {
+          border-radius: 2px;
+          border: 0;
+          background: $bicycles_tyres;
+          box-shadow: none;
+          color: $glowing_effect_tower;
+        }
+
         textarea {
           width: 100%;
         }
