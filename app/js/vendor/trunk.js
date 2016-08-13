@@ -8,7 +8,7 @@ $(function() {
         })(navigator.userAgent || navigator.vendor || window.opera);
         return check;
     }
-    var clickevent = mobilecheck() ? 'touchstart' : 'click';
+    var clickevent = mobilecheck() ? 'click' : 'click';
 
     var items = $('.slide');
     var $content = $('.Part');
