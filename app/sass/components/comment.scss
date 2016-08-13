@@ -45,6 +45,18 @@
     }
   }
 
+  &-Form {
+    margin-top: $large;
+
+    textarea {
+      width: 100%;
+    }
+
+    p {
+      margin-top: $normal;
+    }
+  }
+
   .comment-author {
     img {
       float: left;
