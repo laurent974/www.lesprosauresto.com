@@ -578,7 +578,7 @@ textarea {
         transform: translate3d(0, 0, 0) scale(1);
         animation: slideIn .35s ease-in-out; }
       .Navbar.close {
-        opacity: .3;
+        opacity: 0;
         -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
         -webkit-animation: slideOut .3s ease-in-out;
         -moz-transform: translate3d(5%, 0, 0) scale(0.97);
@@ -660,14 +660,14 @@ textarea {
   /*Nav Expanding Open Effect*/
   @-webkit-keyframes slideIn {
     0% {
-      opacity: .3;
+      opacity: 0;
       -webkit-transform: translate3d(5%, 0, 0) scale(0.97); }
     100% {
       opacity: 1;
       -webkit-transform: translate3d(0, 0, 0) scale(1); } }
   @keyframes slideIn {
     0% {
-      opacity: .3;
+      opacity: 0;
       -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
       transform: translate3d(5%, 0, 0) scale(0.97); }
     100% {
@@ -679,7 +679,7 @@ textarea {
       opacity: 1;
       -webkit-transform: translate3d(0, 0, 0) scale(1); }
     100% {
-      opacity: .3;
+      opacity: 0;
       -webkit-transform: translate3d(5%, 0, 0) scale(0.97); } }
   @keyframes slideOut {
     0% {
