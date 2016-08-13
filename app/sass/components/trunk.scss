@@ -350,6 +350,6 @@
 	}
 }
 
-.wpadminbar.mobile {
-	display: none;
+html #wpadminbar.mobile {
+	display: none !important;
 }
