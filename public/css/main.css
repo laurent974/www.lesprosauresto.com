@@ -723,6 +723,9 @@ textarea {
     font-weight: 300; }
   .Post-Contact .wpcf7-form p {
     margin-top: 10px; }
+    .Post-Contact .wpcf7-form p input,
+    .Post-Contact .wpcf7-form p textarea {
+      margin-top: 5px; }
   .Post strong,
   .Post b {
     font-weight: 600; }

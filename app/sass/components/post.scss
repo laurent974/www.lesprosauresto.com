@@ -28,6 +28,11 @@
     .wpcf7-form {
       p {
         margin-top: $medium;
+
+        input,
+        textarea {
+          margin-top: $small;
+        }
       }
     }
   }
