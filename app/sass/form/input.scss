@@ -7,6 +7,11 @@ input[type=email] {
   border-radius: 4px;
   vertical-align: middle;
 
+  @include mq(xs) {
+    display: block;
+    width: 100%;
+  }
+
   &:focus {
     outline: 0;
     border-color: #129FEA;
@@ -27,6 +32,11 @@ input[type=submit] {
   padding: .5em 1em;
   background-color: $asian_red;
   color: $white;
+
+  @include mq(xs) {
+    display: block;
+    width: 100%;
+  }
 
   &:focus {
     outline: 0;

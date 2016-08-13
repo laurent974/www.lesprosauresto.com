@@ -404,6 +404,12 @@ input[type=email] {
   border: 1px solid #ccc;
   border-radius: 4px;
   vertical-align: middle; }
+  @media (max-width: 767px) {
+    input[type=text],
+    input[type=password],
+    input[type=email] {
+      display: block;
+      width: 100%; } }
   input[type=text]:focus,
   input[type=password]:focus,
   input[type=email]:focus {
@@ -424,6 +430,10 @@ input[type=submit] {
   padding: .5em 1em;
   background-color: #A80000;
   color: #ffffff; }
+  @media (max-width: 767px) {
+    input[type=submit] {
+      display: block;
+      width: 100%; } }
   input[type=submit]:focus {
     outline: 0; }
 
