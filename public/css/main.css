@@ -907,6 +907,7 @@ textarea {
   padding: 15px;
   margin-top: 30px; }
   .Footer .material-icons {
-    font-size: 15px; }
+    font-size: 15px;
+    vertical-align: -2px; }
 
 /*# sourceMappingURL=main.css.map */
