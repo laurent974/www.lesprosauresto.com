@@ -25,7 +25,7 @@
 	<ol class="Commentary-List">
 	<?php foreach ($comments as $comment) : ?>
 
-		<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
+		<li class="Commentary-Item <?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
 			<?php comment_text() ?>
 			<div class="Commentary-MetaList">
 				<div class="Commentary-Meta Meta-Author">
