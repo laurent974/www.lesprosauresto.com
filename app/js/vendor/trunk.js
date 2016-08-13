@@ -11,7 +11,7 @@ $(function() {
     var clickevent = mobilecheck() ? 'touchstart' : 'click';
 
     var items = $('.slide');
-    var $content = $('.Global');
+    var $content = $('.Part');
 
     function open() {
         $(items).removeClass('close').addClass('open');
