@@ -43,6 +43,11 @@
 					<em><?php _e('Votre commentaire est en cours de mod&eacute;ration'); ?></em>
 				<?php endif; ?>
 			</div>
+
+			<!-- TODO: Faire l'imbriquation du reply -->
+			<!-- <div class="Commentary-Reply">
+          <?php //comment_reply_link(array_merge( $args, array('add_below' => $add_below, 'depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+      </div> -->
 		</li>
 
 	<?php /* Changes every other comment to a different class */

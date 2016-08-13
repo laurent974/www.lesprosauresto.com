@@ -50,9 +50,11 @@
     margin-top: $normal;
     padding: $normal 0 0 0;
     border-top: 1px solid $glowing_effect_tower;
+    font-size: $f-small;
 
-    .material-icons {
-      font-size: 12px;
+    .material-icons,
+    .ldc-ul_cont {
+      font-size: $f-small;
     }
   }
 }

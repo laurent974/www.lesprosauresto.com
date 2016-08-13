@@ -488,7 +488,6 @@ textarea {
   .Navbar > li {
     margin-left: 5px; }
   .Navbar li {
-    float: left;
     display: inline-block; }
     .Navbar li a {
       font-size: 15px;
@@ -734,8 +733,10 @@ textarea {
   .Post footer {
     margin-top: 15px;
     padding: 15px 0 0 0;
-    border-top: 1px solid #DFBA69; }
-    .Post footer .material-icons {
+    border-top: 1px solid #DFBA69;
+    font-size: 12px; }
+    .Post footer .material-icons,
+    .Post footer .ldc-ul_cont {
       font-size: 12px; }
 
 .Banner {
