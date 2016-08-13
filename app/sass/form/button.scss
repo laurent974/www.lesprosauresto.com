@@ -21,4 +21,9 @@
       color: $reflection;
     }
   }
+
+  @include mq(xs) {
+    width: 100%;
+    margin-top: $medium;
+  }
 }
