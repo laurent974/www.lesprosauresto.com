@@ -25,6 +25,10 @@
           <li></li><li></li><li></li>
         </ul>
 
+        <div class="only-on-mobiles">
+          <i class="material-icons">&#xE87C;</i>
+        </div>
+
         <?php $login_query = new WP_Query( 'category_name=Login' ); ?>
         <?php if ($login_query->have_posts()) : ?>
           <?php while ($login_query->have_posts()) : $login_query->the_post(); ?>
