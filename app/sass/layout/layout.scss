@@ -18,6 +18,10 @@ body {
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
+
+  @include mq(xs) {
+    padding-top: 14px;
+  }
 }
 
 .sz-google-drive {
