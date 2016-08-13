@@ -1,3 +1,6 @@
 .Commentary {
   margin-top: $large;
+  .comment-edit-link {
+    @extend .Button;
+  }
 }

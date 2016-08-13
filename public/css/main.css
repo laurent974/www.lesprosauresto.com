@@ -417,7 +417,7 @@ input[type=submit] {
   input[type=submit]:focus {
     outline: 0; }
 
-.Button {
+.Button, .Commentary .comment-edit-link {
   display: inline-block;
   font-size: 12px;
   zoom: 1;
