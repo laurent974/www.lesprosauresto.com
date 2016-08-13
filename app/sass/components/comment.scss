@@ -26,6 +26,10 @@
 
   &-Item {
     margin-top: $normal;
+
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   &-MetaList {
@@ -33,7 +37,12 @@
   }
 
   &-Meta {
+    display: inline-block;
+    font-size: $f-medium;
 
+    .material-icons {
+      vertical-align: -5px;
+    }
   }
 
   .comment-author {

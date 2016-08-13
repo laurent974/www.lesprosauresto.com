@@ -844,6 +844,13 @@ input[type=submit] {
       margin-left: -10px; }
   .Commentary-Item {
     margin-top: 15px; }
+    .Commentary-Item:first-child {
+      margin-top: 0; }
+  .Commentary-Meta {
+    display: inline-block;
+    font-size: 14px; }
+    .Commentary-Meta .material-icons {
+      vertical-align: -5px; }
   .Commentary .comment-author img {
     float: left; }
 
