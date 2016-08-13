@@ -6,7 +6,7 @@
     counter-reset: counter;
   }
 
-  &-Item {
+  > &-Item {
     counter-increment: counter;
     position: relative;
     background: $bicycles_tyres;

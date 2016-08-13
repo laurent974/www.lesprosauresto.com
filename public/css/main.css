@@ -826,16 +826,16 @@ input[type=submit] {
   .Commentary-List {
     color: #FFFEDF;
     counter-reset: counter; }
-  .Commentary-Item {
+  > .Commentary-Item {
     counter-increment: counter;
     position: relative;
     background: #3E4147;
     margin-top: 15px;
     padding: 15px;
     border-radius: 2px; }
-    .Commentary-Item:first-child {
+    > .Commentary-Item:first-child {
       margin-top: 0; }
-    .Commentary-Item :before {
+    > .Commentary-Item :before {
       content: counter(counter);
       /* on affiche le compteur */
       padding: 0 20px 6px;
@@ -846,7 +846,7 @@ input[type=submit] {
       font-weight: bold;
       font-size: 0.8em;
       color: #FFFEDF; }
-    .Commentary-Item:after {
+    > .Commentary-Item:after {
       right: 100%;
       top: 25px;
       border: solid transparent;
