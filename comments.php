@@ -21,15 +21,21 @@
 
 <div class="cadre_commentaires">
 <?php if ($comments) : ?>
-	<h3 id="comments"><?php comments_number('Pas de commentaire', 'Un commentaire', '% commentaires' );?> pour &#8220;<?php the_title(); ?>&#8221;</h3>
+	<h3 id="comments"><?php comments_number('Pas de commentaire', 'Un commentaire', '% commentaires' );?> :</h3>
 
 <ol class="commentlist">
 <?php foreach ($comments as $comment) : ?>
 
 	<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
+		<?php edit_comment_link('Modifier','',''); ?>
 		<?php comment_text() ?>
-		<div class="commentmetadata">
-			<strong><?php comment_author_link() ?></strong>, <?php _e('le'); ?> <a href ="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a> <?php _e('dit :'); ?> <?php edit_comment_link('Modifier','',''); ?>
+		<div class="Commentary-Meta">
+			<div class="Meta-Author">
+				<i class="material-icons">&#xE7FD;</i> <strong><?php comment_author_link() ?></strong>,
+			</div>
+			<div class="Meta-Date">
+				<i class="material-icons">&#xE24F;</i> <a href ="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a>
+			</div>
 			<?php if ($comment->comment_approved == '0') : ?>
 				<em><?php _e('Votre commentaire est en cours de mod&eacute;ration'); ?></em>
 			<?php endif; ?>
