@@ -823,5 +823,31 @@ input[type=submit] {
 
 .Commentary {
   margin-top: 20px; }
+  .Commentary-List {
+    background: #3E4147;
+    color: #FFFEDF;
+    padding: 15px;
+    border-radius: 2px; }
+    .Commentary-List:after, .Commentary-List:before {
+      bottom: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none; }
+    .Commentary-List:after {
+      border-color: rgba(136, 183, 213, 0);
+      border-bottom-color: #3E4147;
+      border-width: 30px;
+      margin-left: -30px; }
+    .Commentary-List:before {
+      border-color: rgba(194, 225, 245, 0);
+      border-bottom-color: #3E4147;
+      border-width: 36px;
+      margin-left: -36px; }
+  .Commentary .comment-author img {
+    float: left; }
 
 /*# sourceMappingURL=main.css.map */

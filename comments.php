@@ -21,37 +21,36 @@
 
 <div class="Commentary">
 <?php if ($comments) : ?>
-	<h3 id="comments"><?php comments_number('Pas de commentaire', 'Un commentaire', '% commentaires' );?> :</h3>
 
-<ol class="Commentary-List">
-<?php foreach ($comments as $comment) : ?>
+	<ol class="Commentary-List">
+	<?php foreach ($comments as $comment) : ?>
 
-	<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
-		<?php comment_text() ?>
-		<div class="Commentary-Meta">
-			<div class="Meta-Author">
-				<i class="material-icons">&#xE7FD;</i> <strong><?php comment_author_link() ?></strong>,
+		<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
+			<?php comment_text() ?>
+			<div class="Commentary-MetaList">
+				<div class="Commentary-Meta Meta-Author">
+					<i class="material-icons">&#xE7FD;</i> <strong><?php comment_author_link() ?></strong>,
+				</div>
+
+				<div class="Commentary-Meta Meta-Date">
+					<i class="material-icons">&#xE24F;</i> <a href ="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a>
+				</div>
+
+				<div class="Commentary-Meta Meta-Modify">
+					<?php edit_comment_link('<i class="material-icons">&#xE254;</i>','',''); ?>
+				</div>
+				<?php if ($comment->comment_approved == '0') : ?>
+					<em><?php _e('Votre commentaire est en cours de mod&eacute;ration'); ?></em>
+				<?php endif; ?>
 			</div>
+		</li>
 
-			<div class="Meta-Date">
-				<i class="material-icons">&#xE24F;</i> <a href ="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a>
-			</div>
+	<?php /* Changes every other comment to a different class */
+		if ('alt' == $oddcomment) $oddcomment = '';
+		else $oddcomment = 'alt';
+	?>
 
-			<div class="Meta-Modify">
-				<?php edit_comment_link('<i class="material-icons">&#xE254;</i>','',''); ?>
-			</div>
-			<?php if ($comment->comment_approved == '0') : ?>
-				<em><?php _e('Votre commentaire est en cours de mod&eacute;ration'); ?></em>
-			<?php endif; ?>
-		</div>
-	</li>
-
-<?php /* Changes every other comment to a different class */
-	if ('alt' == $oddcomment) $oddcomment = '';
-	else $oddcomment = 'alt';
-?>
-
-<?php endforeach; /* end for each comment */ ?>
+	<?php endforeach; /* end for each comment */ ?>
 	</ol>
 
 <?php else : // this is displayed if there are no comments so far ?>
