@@ -555,7 +555,7 @@ textarea {
     display: block; }
   @media (max-width: 767px) {
     .Navbar {
-      width: 93%;
+      width: 75%;
       height: 100%;
       position: fixed;
       left: 0;
