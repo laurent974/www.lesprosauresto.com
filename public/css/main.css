@@ -536,6 +536,9 @@ textarea {
     left: 0;
     width: 180px;
     z-index: 99999; }
+    @media (max-width: 767px) {
+      .Navbar .sub-menu {
+        position: relative; } }
   .Navbar .sub-menu li {
     min-width: 180px; }
   .Navbar .sub-menu .sub-menu {

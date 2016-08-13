@@ -102,6 +102,10 @@
 		left: 0;
 		width: 180px;
 		z-index: 99999;
+
+		@include mq(xs) {
+			position: relative;
+		}
 	}
 
 	.sub-menu li {
