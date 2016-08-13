@@ -735,6 +735,8 @@ textarea {
       background: #3E4147;
       box-shadow: none;
       color: #DFBA69; }
+    .Post-Contact .wpcf7-form p input[type=submit] {
+      float: right; }
     .Post-Contact .wpcf7-form p textarea {
       width: 100%; }
   .Post strong,
