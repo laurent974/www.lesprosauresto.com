@@ -18,14 +18,18 @@
       <article class="Post twelve columns">
         <h1 class="Post-Title Title-H1"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></h1>
         <?php
-      		 the_content();
-
-      		// If comments are open or we have at least one comment, load up the comment template.
-      		if ( comments_open() || get_comments_number() ) {
-      			comments_template();
-      		} ?>
-        </article>
-    	<?php endwhile; ?>
-  </div>
+      		the_content();
+        ?>
+        <div class="Post-Comment">
+          <?php
+            // If comments are open or we have at least one comment, load up the comment template.
+            if ( comments_open() || get_comments_number() ) {
+              comments_template();
+            }
+          ?>
+        </div>
+      </article>
+  	<?php endwhile; ?>
+</div>
   </section>
 <?php get_footer(); ?>
