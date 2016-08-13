@@ -484,6 +484,9 @@ textarea {
   text-align: center; }
   .Navbar .menu-website-container {
     display: inline-block; }
+    @media (max-width: 767px) {
+      .Navbar .menu-website-container {
+        width: 100%; } }
   .Navbar > li {
     margin-left: 5px; }
   .Navbar li {
@@ -557,6 +560,7 @@ textarea {
       /*Nav Shrinking Closed Effect*/ }
       .Navbar.open {
         opacity: 1;
+        z-index: 10;
         -webkit-transform: translate3d(0, 0, 0) scale(1);
         -webkit-animation: slideIn .35s ease-in-out;
         -moz-transform: translate3d(0, 0, 0) scale(1);

@@ -31,6 +31,10 @@
 
 	.menu-website-container {
 		display: inline-block;
+
+		@include mq(xs) {
+			width: 100%;
+		}
 	}
 
 	> li {
@@ -145,7 +149,8 @@
 
 		&.open {
 			opacity: 1;
-
+			z-index: 10;
+			
 			-webkit-transform: translate3d(0,0,0)scale(1);
 			-webkit-animation: slideIn .35s ease-in-out;
 
