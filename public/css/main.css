@@ -452,6 +452,11 @@ textarea {
   padding: 10px;
   font-size: 14px; }
 
+@media (max-width: 767px) {
+  .Part {
+    z-index: 1;
+    position: relative; } }
+
 .Part-SingleThumbnail {
   width: 100%;
   height: 300px;

@@ -1,4 +1,9 @@
 .Part {
+  @include mq(xs) {
+    z-index: 1;
+    position: relative;
+  }
+
   &-SingleThumbnail {
     width: 100%;
     height: 300px;
