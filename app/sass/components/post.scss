@@ -27,7 +27,7 @@
   &-Contact {
     .wpcf7-form {
       margin-bottom: 23px;
-      
+
       p {
         margin-top: $medium;
 
@@ -41,9 +41,9 @@
         textarea {
           border-radius: 2px;
           border: 0;
-          background: $bicycles_tyres;
+          background: $glowing_effect_tower;
           box-shadow: none;
-          color: $glowing_effect_tower;
+          color: $bicycles_tyres;
         }
 
         input[type=submit] {
