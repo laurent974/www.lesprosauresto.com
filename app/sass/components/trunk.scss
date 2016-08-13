@@ -36,8 +36,18 @@
 			transform: rotate(45deg);
 		}
 
+		&:nth-child(2) {
+			display: none;
+		}
+
 		&:last-child {
 			transform: rotate(-45deg);
+		}
+
+		&:first-child,
+		&:last-child {
+			position: absolute;
+			top: 19px;
 		}
 	}
 

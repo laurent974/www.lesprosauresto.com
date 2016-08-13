@@ -508,9 +508,14 @@ textarea {
     .burger.open li:first-child {
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg); }
+    .burger.open li:nth-child(2) {
+      display: none; }
     .burger.open li:last-child {
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg); }
+    .burger.open li:first-child, .burger.open li:last-child {
+      position: absolute;
+      top: 19px; }
   @media (max-width: 767px) {
     .burger {
       display: block; } }
