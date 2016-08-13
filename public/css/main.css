@@ -856,6 +856,11 @@ input[type=submit] {
   .Commentary .comment-author img {
     float: left; }
 
+.Meta-Author a {
+  color: #DFBA69; }
+  .Meta-Author a:hover {
+    color: #FFFEDF; }
+
 .Meta-Modify {
   margin-left: 15px; }
   .Meta-Modify .material-icons {

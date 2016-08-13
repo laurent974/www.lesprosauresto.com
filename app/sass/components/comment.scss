@@ -59,7 +59,13 @@
 
 .Meta {
   &-Author {
+    a {
+      color: $glowing_effect_tower;
 
+      &:hover {
+        color: $sunrise_glow;
+      }
+    }
   }
 
   &-Date {
