@@ -33,7 +33,7 @@
 				</div>
 
 				<div class="Commentary-Meta Meta-Date">
-					<i class="material-icons">&#xE24F;</i> <a href ="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a>
+					<i class="material-icons">&#xE24F;</i> <?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?>
 				</div>
 
 				<div class="Commentary-Meta Meta-Modify">
