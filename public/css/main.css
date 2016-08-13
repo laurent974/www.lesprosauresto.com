@@ -738,6 +738,8 @@ textarea {
     .Post footer .material-icons,
     .Post footer .ldc-ul_cont {
       font-size: 12px; }
+    .Post footer .material-icons {
+      vertical-align: -3px; }
 
 .Banner {
   background: url("../images/banner1.jpg") center;
