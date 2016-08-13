@@ -378,6 +378,12 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px; }
 
+.Color--Gold {
+  color: #DFBA69; }
+
+.Color--Red {
+  color: #A80000; }
+
 .Link,
 a {
   color: #A80000;
