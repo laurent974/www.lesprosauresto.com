@@ -559,7 +559,7 @@ textarea {
       background-color: #1d2d35;
       border-radius: 5px;
       /* starting point */
-      opacity: .3;
+      opacity: 0;
       -webkit-transform: translate3d(5%, 0, 0) scale(0.97);
       transform: translate3d(5%, 0, 0) scale(0.97);
       /*Nav Shrinking Closed Effect*/ }
