@@ -555,7 +555,7 @@ textarea {
     display: block; }
   @media (max-width: 767px) {
     .Navbar {
-      width: 320px;
+      width: 250px;
       height: 100%;
       position: fixed;
       left: 0;
@@ -638,11 +638,11 @@ textarea {
 @media (max-width: 767px) {
   .Header.open,
   .Content.open {
-    -webkit-transform: translate3d(320px, 0, 0);
+    -webkit-transform: translate3d(250px, 0, 0);
     -webkit-animation: open .5s ease-in-out;
-    -moz-transform: translate3d(320px, 0, 0);
+    -moz-transform: translate3d(250px, 0, 0);
     -moz-animation: open .5s ease-in-out;
-    transform: translate3d(320px, 0, 0);
+    transform: translate3d(250px, 0, 0);
     animation: open .5s ease-in-out; } }
 
 /*Content Sliding Closed Effect*/
@@ -694,28 +694,28 @@ textarea {
     0% {
       -webkit-transform: translate3d(0, 0, 0); }
     70% {
-      -webkit-transform: translate3d(360px, 0, 0); }
+      -webkit-transform: translate3d(290px, 0, 0); }
     100% {
-      -webkit-transform: translate3d(320px, 0, 0); } }
+      -webkit-transform: translate3d(250px, 0, 0); } }
   @keyframes open {
     0% {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
     70% {
-      -webkit-transform: translate3d(360px, 0, 0);
-      transform: translate3d(360px, 0, 0); }
+      -webkit-transform: translate3d(290px, 0, 0);
+      transform: translate3d(290px, 0, 0); }
     100% {
-      -webkit-transform: translate3d(320px, 0, 0);
-      transform: translate3d(320px, 0, 0); } }
+      -webkit-transform: translate3d(250px, 0, 0);
+      transform: translate3d(250px, 0, 0); } }
   @-webkit-keyframes close {
     0% {
-      -webkit-transform: translate3d(320px, 0, 0); }
+      -webkit-transform: translate3d(250px, 0, 0); }
     100% {
       -webkit-transform: translate3d(0, 0, 0); } }
   @keyframes close {
     0% {
-      -webkit-transform: translate3d(320px, 0, 0);
-      transform: translate3d(320px, 0, 0); }
+      -webkit-transform: translate3d(250px, 0, 0);
+      transform: translate3d(250px, 0, 0); }
     100% {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }

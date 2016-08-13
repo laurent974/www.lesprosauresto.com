@@ -132,7 +132,7 @@
 	}
 
 	@include mq(xs) {
-		width: 320px;
+		width: 250px;
 		height: 100%;
 		position: fixed;
 		left: 0;
@@ -253,13 +253,13 @@
 .Header.open,
 .Content.open {
 	@include mq(xs) {
-		-webkit-transform: translate3d(320px,0,0);
+		-webkit-transform: translate3d(250px,0,0);
 		-webkit-animation: open .5s ease-in-out;
 
-		-moz-transform: translate3d(320px,0,0);
+		-moz-transform: translate3d(250px,0,0);
 		-moz-animation: open .5s ease-in-out;
 
-		transform: translate3d(320px,0,0);
+		transform: translate3d(250px,0,0);
 		animation: open .5s ease-in-out;
 	}
 }
@@ -322,30 +322,30 @@
 
 	@-webkit-keyframes open {
 		0%      {-webkit-transform: translate3d(0,0,0);}
-		70%    {-webkit-transform: translate3d(360px,0,0);}
-		100%  {-webkit-transform: translate3d(320px,0,0);}
+		70%    {-webkit-transform: translate3d(290px,0,0);}
+		100%  {-webkit-transform: translate3d(250px,0,0);}
 	}
 	@-moz-keyframes open {
 		0%      {-moz-transform: translate3d(0,0,0);}
-		70%    {-moz-transform: translate3d(360px,0,0);}
-		100%  {-moz-transform: translate3d(320px,0,0);}
+		70%    {-moz-transform: translate3d(290px,0,0);}
+		100%  {-moz-transform: translate3d(250px,0,0);}
 	}
 	@keyframes open {
 		0%      {transform: translate3d(0,0,0);}
-		70%    {transform: translate3d(360px,0,0);}
-		100%  {transform: translate3d(320px,0,0);}
+		70%    {transform: translate3d(290px,0,0);}
+		100%  {transform: translate3d(250px,0,0);}
 	}
 
 	@-webkit-keyframes close {
-		0%      {-webkit-transform: translate3d(320px,0,0);}
+		0%      {-webkit-transform: translate3d(250px,0,0);}
 		100%  {-webkit-transform: translate3d(0,0,0);}
 	}
 	@-moz-keyframes close {
-		0%       {-moz-transform: translate3d(320px,0,0);}
+		0%       {-moz-transform: translate3d(250px,0,0);}
 		100%  {-moz-transform: translate3d(0,0,0);}
 	}
 	@keyframes close {
-		0%       {transform: translate3d(320px,0,0);}
+		0%       {transform: translate3d(250px,0,0);}
 		100%  {transform: translate3d(0,0,0);}
 	}
 }
