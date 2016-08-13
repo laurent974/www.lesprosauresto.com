@@ -28,21 +28,21 @@
           <?php
             // If comments are open or we have at least one comment, load up the comment template.
             if ( comments_open() || get_comments_number() ) {
-              //comments_template();
-              $commentsArray = get_comments('post_id='.get_the_ID());
-              $comments = null;
-
-              foreach ($commentsArray as $e) {
-                $comments .= '<article>';
-                $comments .= '<header>';
-                $comments .= '<h1><cite class="fn">'.$e->comment_author.'</cite> dit :</h1>';
-                $comments .= '<date datetime="'.$e->comment_date.'">'.date_i18n(get_option('date_format'), strtotime($e->comment_date)).'</date>';
-                $comments .= '</header>';
-                $comments .= '<p>'.$e->comment_content.'</p>';
-                $comments .= '</article>';
-                }
-
-              echo $comments;
+              comments_template();
+              // $commentsArray = get_comments('post_id='.get_the_ID());
+              // $comments = null;
+              //
+              // foreach ($commentsArray as $e) {
+              //   $comments .= '<article>';
+              //   $comments .= '<header>';
+              //   $comments .= '<h1><cite class="fn">'.$e->comment_author.'</cite> dit :</h1>';
+              //   $comments .= '<date datetime="'.$e->comment_date.'">'.date_i18n(get_option('date_format'), strtotime($e->comment_date)).'</date>';
+              //   $comments .= '</header>';
+              //   $comments .= '<p>'.$e->comment_content.'</p>';
+              //   $comments .= '</article>';
+              //   }
+              //
+              // echo $comments;
             }
           ?>
         </div>
