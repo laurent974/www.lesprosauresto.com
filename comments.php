@@ -1,19 +1,19 @@
 <?php // Do not delete these lines
-if ('comments.php'== basename($_SERVER['SCRIPT_FILENAME'])) die ('Ne pas t&eacute;l&eacute;charger cette page directement, merci !');
-if (!empty($post->post_password)) { // if there's a password
-	if ($_COOKIE['wp-postpass_' . COOKIEHASH] != $post->post_password) { // and it doesn't match the cookie
+	if ('comments.php'== basename($_SERVER['SCRIPT_FILENAME'])) die ('Ne pas t&eacute;l&eacute;charger cette page directement, merci !');
+	if (!empty($post->post_password)) { // if there's a password
+		if ($_COOKIE['wp-postpass_' . COOKIEHASH] != $post->post_password) { // and it doesn't match the cookie
 ?>
 
-<h2><?php _e('Prot&eacute;g&eacute; par mot de passe'); ?></h2>
-<p><?php _e('Entrer le mot de passe pour voir les commentaires'); ?></p>
+			<h2><?php _e('Prot&eacute;g&eacute; par mot de passe'); ?></h2>
+			<p><?php _e('Entrer le mot de passe pour voir les commentaires'); ?></p>
 
-<?php return;
+	<?php return;
+		}
 	}
-}
 
 	/* This variable is for alternating comment background */
 
-$oddcomment = 'alt';
+	$oddcomment = 'alt';
 
 ?>
 
@@ -29,7 +29,7 @@ $oddcomment = 'alt';
 	<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
 
 <div class="commentmetadata">
-<strong><?php comment_author_link() ?></strong>, <?php _e('le'); ?> <a href ="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a> <?php _e('Said&#58;'); ?> <?php edit_comment_link('Edit Comment','',''); ?>
+<strong><?php comment_author_link() ?></strong>, <?php _e('le'); ?> <a href ="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a> <?php _e('Said:::'); ?> <?php edit_comment_link('Edit Comment','',''); ?>
  		<?php if ($comment->comment_approved == '0') : ?>
 		<em><?php _e('Votre commentaire est en cours de mod&eacute;ration'); ?></em>
  		<?php endif; ?>
