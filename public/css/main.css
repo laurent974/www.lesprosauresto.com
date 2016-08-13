@@ -512,6 +512,9 @@ textarea {
       font-weight: 300;
       text-decoration: none;
       border-radius: 2px; }
+      @media (max-width: 767px) {
+        .Navbar li a {
+          border-radius: 0; } }
     .Navbar li:hover {
       color: #FFFEDF; }
     .Navbar li.current-menu-item > a {
