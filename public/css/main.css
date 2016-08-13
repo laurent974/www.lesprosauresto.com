@@ -858,11 +858,13 @@ textarea {
     .Commentary-Meta .material-icons {
       vertical-align: -5px; }
   .Commentary-Form {
-    margin-top: 20px; }
+    margin-top: 30px; }
     .Commentary-Form textarea {
       width: 100%; }
     .Commentary-Form p {
-      margin-top: 15px; }
+      margin-top: 10px; }
+      .Commentary-Form p input[type='submit'] {
+        float: right; }
   .Commentary .comment-author img {
     float: left; }
 

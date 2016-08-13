@@ -46,14 +46,18 @@
   }
 
   &-Form {
-    margin-top: $large;
+    margin-top: $xxl;
 
     textarea {
       width: 100%;
     }
 
     p {
-      margin-top: $normal;
+      margin-top: $medium;
+
+      input[type='submit'] {
+        float: right;
+      }
     }
   }
 
