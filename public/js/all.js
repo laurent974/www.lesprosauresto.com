@@ -10096,7 +10096,7 @@ f=new sa(C,u,C[u],D,f),u in A&&(f.e=A[u]),f.xs0=0,f.plugin=h,d._overwriteProps.p
 
 $(document).ready(function() {
 
-  $('a').on('click touchend', function(e) {
+  $('a').on('click touchstart', function(e) {
     var el = $(this);
     var link = el.attr('href');
     window.location = link;
