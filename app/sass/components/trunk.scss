@@ -132,7 +132,7 @@
 	}
 
 	@include mq(xs) {
-		width: 75%;
+		width: 320px;
 		height: 100%;
 		position: fixed;
 		left: 0;
@@ -316,36 +316,36 @@
 	@keyframes slideOut {
 		0%      {opacity: 1;
 					transform: translate3d(0,0,0)scale(1);}
-		100%  {opacity: .3;
+		100%  {opacity: 0;
 					transform: translate3d(5%,0,0)scale(.97);}
 	}
 
 	@-webkit-keyframes open {
 		0%      {-webkit-transform: translate3d(0,0,0);}
-		70%    {-webkit-transform: translate3d(260px,0,0);}
-		100%  {-webkit-transform: translate3d(240px,0,0);}
+		70%    {-webkit-transform: translate3d(360px,0,0);}
+		100%  {-webkit-transform: translate3d(320px,0,0);}
 	}
 	@-moz-keyframes open {
 		0%      {-moz-transform: translate3d(0,0,0);}
-		70%    {-moz-transform: translate3d(260px,0,0);}
-		100%  {-moz-transform: translate3d(240px,0,0);}
+		70%    {-moz-transform: translate3d(360px,0,0);}
+		100%  {-moz-transform: translate3d(320px,0,0);}
 	}
 	@keyframes open {
 		0%      {transform: translate3d(0,0,0);}
-		70%    {transform: translate3d(260px,0,0);}
-		100%  {transform: translate3d(240px,0,0);}
+		70%    {transform: translate3d(360px,0,0);}
+		100%  {transform: translate3d(320px,0,0);}
 	}
 
 	@-webkit-keyframes close {
-		0%      {-webkit-transform: translate3d(240px,0,0);}
+		0%      {-webkit-transform: translate3d(320px,0,0);}
 		100%  {-webkit-transform: translate3d(0,0,0);}
 	}
 	@-moz-keyframes close {
-		0%       {-moz-transform: translate3d(240px,0,0);}
+		0%       {-moz-transform: translate3d(320px,0,0);}
 		100%  {-moz-transform: translate3d(0,0,0);}
 	}
 	@keyframes close {
-		0%       {transform: translate3d(240px,0,0);}
+		0%       {transform: translate3d(320px,0,0);}
 		100%  {transform: translate3d(0,0,0);}
 	}
 }
