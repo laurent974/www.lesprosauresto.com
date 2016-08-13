@@ -552,6 +552,10 @@ textarea {
     line-height: 1em;
     padding: 15px;
     height: auto; }
+    @media (max-width: 767px) {
+      .Navbar .sub-menu a {
+        background: #3E4147;
+        color: #ffffff; } }
   .Navbar li:hover > a,
   .Navbar .sub-menu:hover > a {
     color: #3E4147;

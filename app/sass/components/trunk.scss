@@ -126,6 +126,11 @@
 		line-height: 1em;
 		padding: $normal;
 		height: auto;
+
+		@include mq(xs) {
+			background: $bicycles_tyres;
+			color: $white;
+		}
 	}
 
 	li:hover > a,
