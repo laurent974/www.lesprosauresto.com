@@ -508,11 +508,13 @@ textarea {
     .Navbar .menu-item-has-children a:after {
       content: '\25bc';
       padding-left: 0.5em; }
-    .Navbar .menu-item-has-children .sub-menu a:before {
-      content: ''; }
-    .Navbar .menu-item-has-children .sub-menu a:after {
-      content: '\25b8';
-      padding-right: 0.5em; }
+    .Navbar .menu-item-has-children .sub-menu a {
+      text-align: left; }
+      .Navbar .menu-item-has-children .sub-menu a:before {
+        content: ''; }
+      .Navbar .menu-item-has-children .sub-menu a:after {
+        content: '\25b8';
+        padding-right: 0.5em; }
     .Navbar .menu-item-has-children .sub-menu .sub-menu a:after {
       content: ''; }
   .Navbar .sub-menu {
