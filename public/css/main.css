@@ -834,8 +834,8 @@ input[type=submit] {
     .Commentary-Item:first-child {
       margin-top: 0; }
     .Commentary-Item:after {
-      bottom: 100%;
-      left: 35px;
+      right: 100%;
+      top: 5px;
       border: solid transparent;
       content: " ";
       height: 0;
@@ -843,9 +843,9 @@ input[type=submit] {
       position: absolute;
       pointer-events: none;
       border-color: rgba(62, 65, 71, 0);
-      border-bottom-color: #3E4147;
+      border-right-color: #3E4147;
       border-width: 10px;
-      margin-left: -10px; }
+      margin-top: -10px; }
   .Commentary-Meta {
     display: inline-block;
     font-size: 14px; }
