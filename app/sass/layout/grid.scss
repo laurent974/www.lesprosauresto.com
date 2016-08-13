@@ -336,8 +336,8 @@ $padding-width: 10px;
     // This basically stacks all the columns for mobile devices. Except when you explicitly say .no-stacking-mobiles
     .row {
 
-        &:not(.no-stacking-on-mobiles) > .column,
-        &:not(.no-stacking-on-mobiles) > .columns {
+        &:not(.no-stacking-on-mobiles) .column,
+        &:not(.no-stacking-on-mobiles) .columns {
             padding-left: 20px;
             padding-right: 20px;
             width: 100% !important;
