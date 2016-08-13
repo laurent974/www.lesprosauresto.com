@@ -715,6 +715,9 @@ textarea {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); } } }
 
+.wpadminbar.mobile {
+  display: none; }
+
 .Post {
   margin-top: 30px;
   background: #FFFEDF;
