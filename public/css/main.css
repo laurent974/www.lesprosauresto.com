@@ -544,6 +544,9 @@ textarea {
   .Navbar .sub-menu .sub-menu {
     left: 100%;
     top: 0; }
+    @media (max-width: 767px) {
+      .Navbar .sub-menu .sub-menu {
+        left: 0; } }
   .Navbar .sub-menu a {
     background: #A80000;
     line-height: 1em;
@@ -555,7 +558,8 @@ textarea {
     background-color: #FFFEDF;
     text-shadow: none; }
   .Navbar ul li:hover > ul {
-    display: block; }
+    display: block;
+    width: 100%; }
   @media (max-width: 767px) {
     .Navbar {
       width: 250px;

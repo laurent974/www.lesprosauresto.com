@@ -115,6 +115,10 @@
 	.sub-menu .sub-menu {
 		left: 100%;
 		top: 0;
+
+		@include mq(xs) {
+			left: 0;
+		}
 	}
 
 	.sub-menu a {
@@ -133,6 +137,7 @@
 
 	ul li:hover > ul {
 		display: block;
+		width: 100%;
 	}
 
 	@include mq(xs) {
