@@ -15,11 +15,30 @@
 
 		@include mq(xs) {
 			border-radius: 0;
+			transition-duration: 0.3s, 0.3s;
+	  	transition-delay: 0.3s, 0s;
+
+			&:first-child {
+				transition-property: top, transform;
+			}
+
+			&:last-child {
+				transition-property: bottom, transform;
+			}
 		}
 	}
 
 	&.open li {
 		background-color: $sunrise_glow;
+		transition-delay: 0s, 0.3s;
+
+		&:first-child {
+			transform: rotate(45deg);
+		}
+
+		&:last-child {
+			transform: rotate(-45deg);
+		}
 	}
 
 	@include mq(xs) {
