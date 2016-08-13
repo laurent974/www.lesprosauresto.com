@@ -394,7 +394,8 @@ a {
     color: #420000; }
 
 input[type=text],
-input[type=password] {
+input[type=password],
+input[type=email] {
   padding: .5em .6em;
   display: inline-block;
   border: 1px solid #ccc;
@@ -402,7 +403,8 @@ input[type=password] {
   border-radius: 4px;
   vertical-align: middle; }
   input[type=text]:focus,
-  input[type=password]:focus {
+  input[type=password]:focus,
+  input[type=email]:focus {
     outline: 0;
     border-color: #129FEA; }
 
@@ -719,6 +721,8 @@ textarea {
   .Post .Content,
   .Post p {
     font-weight: 300; }
+  .Post .Contact .wpcf7-form p {
+    margin-top: 10px; }
   .Post strong,
   .Post b {
     font-weight: 600; }
