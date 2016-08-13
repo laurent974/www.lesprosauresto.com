@@ -890,6 +890,11 @@ textarea {
 
 .Footer {
   background: #3E4147;
-  color: #DFBA69; }
+  color: #DFBA69;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px; }
+  .Footer .material-icons {
+    font-size: 15px; }
 
 /*# sourceMappingURL=main.css.map */

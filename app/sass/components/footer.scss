@@ -1,4 +1,11 @@
 .Footer {
   background: $bicycles_tyres;
   color: $glowing_effect_tower;
+  text-align: center;
+  padding: $normal;
+  margin-top: $xxl;
+
+  .material-icons {
+    font-size: 15px;
+  }
 }
