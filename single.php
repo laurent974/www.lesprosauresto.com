@@ -15,12 +15,14 @@
       <?php } ?>
 
       <div class="row">
-      <article class="Post twelve columns">
-        <h1 class="Post-Title Title-H1"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></h1>
-        <?php
-      		the_content();
-        ?>
-      </article>
+        <article class="Post twelve columns">
+          <h1 class="Post-Title Title-H1"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></h1>
+          <?php
+        		the_content();
+          ?>
+        </article>
+      </div>
+      
       <div class="Commentary">
         <?php
           // If comments are open or we have at least one comment, load up the comment template.
@@ -30,6 +32,5 @@
         ?>
       </div>
   	<?php endwhile; ?>
-</div>
   </section>
 <?php get_footer(); ?>
