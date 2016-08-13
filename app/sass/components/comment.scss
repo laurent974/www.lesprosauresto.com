@@ -3,9 +3,11 @@
 
   &-List {
     color: $sunrise_glow;
+    counter-reset: counter;
   }
 
   &-Item {
+    counter-increment: counter;
     position: relative;
     background: $bicycles_tyres;
     margin-top: $normal;
@@ -14,6 +16,19 @@
 
     &:first-child {
       margin-top: 0;
+    }
+
+    :before {
+      content: counter(counter); /* on affiche le compteur */
+      padding: 0 20px 6px;
+      margin-right: 8px;
+      vertical-align: top;
+      background: $asian_red;
+      -moz-border-radius: 60px;
+      border-radius: 60px;
+      font-weight: bold;
+      font-size: 0.8em;
+      color: $sunrise_glow;
     }
 
     &:after {
