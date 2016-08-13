@@ -18,7 +18,7 @@
 
     &:after {
     	right: 100%;
-    	top: 5px;
+    	top: 25px;
     	border: solid transparent;
     	content: " ";
     	height: 0;
@@ -33,7 +33,7 @@
   }
 
   &-MetaList {
-
+    margin-top: $medium;
   }
 
   &-Meta {
@@ -67,6 +67,10 @@
   }
 
   &-Modify {
+    margin-left: $normal;
 
+    .material-icons {
+      font-size: 15px;
+    }
   }
 }

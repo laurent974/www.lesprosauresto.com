@@ -835,7 +835,7 @@ input[type=submit] {
       margin-top: 0; }
     .Commentary-Item:after {
       right: 100%;
-      top: 5px;
+      top: 25px;
       border: solid transparent;
       content: " ";
       height: 0;
@@ -846,6 +846,8 @@ input[type=submit] {
       border-right-color: #3E4147;
       border-width: 10px;
       margin-top: -10px; }
+  .Commentary-MetaList {
+    margin-top: 10px; }
   .Commentary-Meta {
     display: inline-block;
     font-size: 14px; }
@@ -853,5 +855,10 @@ input[type=submit] {
       vertical-align: -5px; }
   .Commentary .comment-author img {
     float: left; }
+
+.Meta-Modify {
+  margin-left: 15px; }
+  .Meta-Modify .material-icons {
+    font-size: 15px; }
 
 /*# sourceMappingURL=main.css.map */
