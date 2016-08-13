@@ -509,7 +509,8 @@ textarea {
       content: '\25bc';
       padding-left: 0.5em; }
     .Navbar .menu-item-has-children .sub-menu a {
-      text-align: left; }
+      text-align: left;
+      border-radius: 0; }
       .Navbar .menu-item-has-children .sub-menu a:before {
         content: ''; }
       .Navbar .menu-item-has-children .sub-menu a:after {

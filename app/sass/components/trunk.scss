@@ -73,7 +73,8 @@
 
 		.sub-menu a {
 			text-align: left;
-			
+			border-radius: 0;
+
 			&:before {
 				content: '';
 			}
