@@ -481,6 +481,9 @@ textarea {
     background-color: #3E4147;
     border-radius: 3px;
     margin: 5px 0; }
+    @media (max-width: 767px) {
+      .burger li {
+        border-radius: 0; } }
   .burger.open li {
     background-color: #FFFEDF; }
   @media (max-width: 767px) {

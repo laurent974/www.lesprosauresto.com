@@ -12,6 +12,10 @@
 		background-color: $bicycles_tyres;
 		border-radius: 3px;
 		margin: $small 0;
+
+		@include mq(xs) {
+			border-radius: 0;
+		}
 	}
 
 	&.open li {
