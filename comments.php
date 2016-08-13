@@ -27,15 +27,13 @@
 <?php foreach ($comments as $comment) : ?>
 
 	<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
-
-<div class="commentmetadata">
-<strong><?php comment_author_link() ?></strong>, <?php _e('le'); ?> <a href ="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a> <?php _e('Said:::'); ?> <?php edit_comment_link('Edit Comment','',''); ?>
- 		<?php if ($comment->comment_approved == '0') : ?>
-		<em><?php _e('Votre commentaire est en cours de mod&eacute;ration'); ?></em>
- 		<?php endif; ?>
-</div>
-
-<?php comment_text() ?>
+		<?php comment_text() ?>
+		<div class="commentmetadata">
+			<strong><?php comment_author_link() ?></strong>, <?php _e('le'); ?> <a href ="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F, Y') ?> <?php _e('&agrave;');?> <?php comment_time() ?></a> <?php _e('dit :'); ?> <?php edit_comment_link('Modifier','',''); ?>
+			<?php if ($comment->comment_approved == '0') : ?>
+				<em><?php _e('Votre commentaire est en cours de mod&eacute;ration'); ?></em>
+			<?php endif; ?>
+		</div>
 	</li>
 
 <?php /* Changes every other comment to a different class */
