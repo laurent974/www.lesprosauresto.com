@@ -440,7 +440,8 @@ input[type=submit] {
 
 textarea {
   border: 0;
-  border-radius: 2px; }
+  border-radius: 2px;
+  font-family: "Raleway"; }
 
 .Part-SingleThumbnail {
   width: 100%;
@@ -860,7 +861,8 @@ textarea {
   .Commentary-Form {
     margin-top: 30px; }
     .Commentary-Form textarea {
-      width: 100%; }
+      width: 100%;
+      padding: 10px; }
     .Commentary-Form p {
       margin-top: 10px; }
       .Commentary-Form p input[type='submit'] {
