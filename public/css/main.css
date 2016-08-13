@@ -399,7 +399,6 @@ input[type=email] {
   padding: .5em .6em;
   display: inline-block;
   border: 1px solid #ccc;
-  box-shadow: inset 0 1px 3px #ddd;
   border-radius: 4px;
   vertical-align: middle; }
   input[type=text]:focus,
@@ -728,6 +727,14 @@ textarea {
     .Post-Contact .wpcf7-form p input,
     .Post-Contact .wpcf7-form p textarea {
       margin-top: 5px; }
+    .Post-Contact .wpcf7-form p input[type=text],
+    .Post-Contact .wpcf7-form p input[type=email],
+    .Post-Contact .wpcf7-form p textarea {
+      border-radius: 2px;
+      border: 0;
+      background: #3E4147;
+      box-shadow: none;
+      color: #DFBA69; }
     .Post-Contact .wpcf7-form p textarea {
       width: 100%; }
   .Post strong,
@@ -763,6 +770,7 @@ textarea {
   background: #e9edf5;
   padding: 10px;
   border-radius: 3px;
+  box-shadow: -2px 2px 6px #888;
   z-index: 10; }
   .Login p {
     font-size: 14px;
