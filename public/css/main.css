@@ -797,6 +797,9 @@ html #wpadminbar.mobile {
   border-radius: 3px;
   box-shadow: -2px 2px 6px #888;
   z-index: 10; }
+  @media (max-width: 767px) {
+    .Login {
+      display: none; } }
   .Login p {
     font-size: 14px;
     text-align: right;
