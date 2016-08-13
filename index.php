@@ -13,7 +13,7 @@
           <h1 class="Post-Title Title-H1"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><i class="material-icons">&#xE56C;</i><span><?php the_title(); ?></span></a></h1>
           <div class="Post-Content">
             <?php if ( has_post_thumbnail() ) { ?>
-              <div class="four columns">
+              <div class="four columns center-on-mobiles">
                 <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('medium'); ?></a>
               </div>
             <?php } ?>
