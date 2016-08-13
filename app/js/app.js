@@ -1,3 +1,9 @@
-$('.sub-menu').bind('touchstart', function(event){
-        event.stopPropagation(); //Make all touch events stop at the .filters ul.children container element
+$(document).ready(function() {
+
+  $('a').on('click touchend', function(e) {
+    var el = $(this);
+    var link = el.attr('href');
+    window.location = link;
+  });
+
 });
