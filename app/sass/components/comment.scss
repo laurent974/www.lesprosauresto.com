@@ -6,7 +6,7 @@
     counter-reset: counter;
   }
 
-  > &-Item {
+  &-Item {
     counter-increment: counter;
     position: relative;
     background: $bicycles_tyres;
@@ -18,7 +18,7 @@
       margin-top: 0;
     }
 
-    :before {
+    &:before {
       content: counter(counter); /* on affiche le compteur */
       padding: 0 20px 6px;
       margin-right: 8px;
