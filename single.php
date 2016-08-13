@@ -43,7 +43,6 @@
                 }
 
               echo $comments;
-                }
             }
           ?>
         </div>
