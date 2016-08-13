@@ -200,6 +200,10 @@
 				&:first-child a.active,
 				&:first-child a:hover {
 					border-radius: $medium 0 0 0;
+
+					@include mq(xs) {
+						border-radius: 0;
+					}
 				}
 
 				a {
