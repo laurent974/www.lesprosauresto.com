@@ -26,7 +26,7 @@
         </ul>
 
         <div class="only-on-mobiles">
-          <i class="material-icons">&#xE87C;</i>
+          <i class="material-icons">&#xE7FD;</i>
         </div>
 
         <?php $login_query = new WP_Query( 'category_name=Login' ); ?>
