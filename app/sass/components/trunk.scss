@@ -253,13 +253,13 @@
 .Header.open,
 .Content.open {
 	@include mq(xs) {
-		-webkit-transform: translate3d(240px,0,0);
+		-webkit-transform: translate3d(320px,0,0);
 		-webkit-animation: open .5s ease-in-out;
 
-		-moz-transform: translate3d(240px,0,0);
+		-moz-transform: translate3d(320px,0,0);
 		-moz-animation: open .5s ease-in-out;
 
-		transform: translate3d(240px,0,0);
+		transform: translate3d(320px,0,0);
 		animation: open .5s ease-in-out;
 	}
 }
