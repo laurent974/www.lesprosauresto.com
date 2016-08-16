@@ -12,3 +12,10 @@ var ToggleMobileLoginButton = function() {
     });
   }
 }
+
+/**
+ * Au Chargement du DOM, on execute:
+ */
+$(document).ready(function() {
+  ToggleMobileLoginButton.initialize();
+});
