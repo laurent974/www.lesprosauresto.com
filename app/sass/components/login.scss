@@ -146,6 +146,14 @@
       width: 100%;
       font-size: 12px;
       padding: 0;
+
+      @include mq(xs) {
+        color: $white;
+
+        a {
+          color: $glowing_effect_tower;
+        }
+      }
     }
   }
 

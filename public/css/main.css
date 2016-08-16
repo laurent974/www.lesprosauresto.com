@@ -958,6 +958,11 @@ html #wpadminbar.mobile {
       width: 100%;
       font-size: 12px;
       padding: 0; }
+      @media (max-width: 767px) {
+        .Login #wpmem_login .link-text {
+          color: #ffffff; }
+          .Login #wpmem_login .link-text a {
+            color: #DFBA69; } }
   .Login-MobileButton {
     float: right;
     padding: 12px;
