@@ -927,7 +927,9 @@ html #wpadminbar.mobile {
       padding: 0; }
   .Login-MobileButton {
     float: right;
-    padding: 12px; }
+    padding: 12px;
+    border: 0;
+    background: transparent; }
     .Login-MobileButton .material-icons {
       color: #ffffff;
       font-size: 33px; }
