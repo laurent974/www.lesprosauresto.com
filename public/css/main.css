@@ -1106,7 +1106,9 @@ html #wpadminbar.mobile {
         margin: 0 auto; } }
   .Logo-Slogan {
     font-family: "Gloria Hallelujah";
-    color: #DFBA69; }
+    background: -webkit-gradient(linear, left top, right bottom, from(#DFBA69), to(#FFFEDF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
     @media (max-width: 767px) {
       .Logo-Slogan {
         display: none; } }
