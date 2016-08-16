@@ -10,7 +10,7 @@
 
   @include mq(xs) {
     display: none;
-    position: relative;
+    position: absolute;
     width: 95%;
     left: 0;
     top: 100%;
@@ -153,8 +153,12 @@
 
       @include mq(xs) {
         color: $white;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        text-align: center;
 
         a {
+          display: inline-block;
           color: $glowing_effect_tower;
         }
       }

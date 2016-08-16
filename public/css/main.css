@@ -858,7 +858,7 @@ html #wpadminbar.mobile {
   @media (max-width: 767px) {
     .Login {
       display: none;
-      position: relative;
+      position: absolute;
       width: 95%;
       left: 0;
       top: 100%;
@@ -963,8 +963,12 @@ html #wpadminbar.mobile {
       padding: 0; }
       @media (max-width: 767px) {
         .Login #wpmem_login .link-text {
-          color: #ffffff; }
+          color: #ffffff;
+          line-height: 1.2;
+          margin-bottom: 10px;
+          text-align: center; }
           .Login #wpmem_login .link-text a {
+            display: inline-block;
             color: #DFBA69; } }
   .Login-MobileButton {
     float: right;
