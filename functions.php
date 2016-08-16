@@ -8,28 +8,19 @@ if ( function_exists( 'add_theme_support' ) ) {
   add_theme_support( 'post-thumbnails' );
 }
 
-// Supprimer jquery UI
+wp_enqueue_script(
+    'customjs',                                 //slug
+    '', //path
+    array('jquery'),                                      //dependencies
+    false,                                                //version
+    true                                                  //footer
+);
 
-wp_deregister_script( 'jquery-ui-core' );
-wp_deregister_script( 'jquery-ui-tab' );
-wp_deregister_script( 'jquery-ui-autocomplete' );
-wp_deregister_script( 'jquery-ui-accordion' );
-wp_deregister_script( 'jquery-ui-autocomplete' );
-wp_deregister_script( 'jquery-ui-button' );
-wp_deregister_script( 'jquery-ui-datepicker');
-wp_deregister_script( 'jquery-ui-dialog' );
-wp_deregister_script( 'jquery-ui-draggable' );
-wp_deregister_script( 'jquery-ui-droppable' );
-wp_deregister_script( 'jquery-ui-mouse' );
-wp_deregister_script( 'jquery-ui-position' );
-wp_deregister_script( 'jquery-ui-progressbar');
-wp_deregister_script( 'jquery-ui-resizable' );
-wp_deregister_script( 'jquery-ui-selectable');
-wp_deregister_script( 'jquery-ui-slider' );
-wp_deregister_script( 'jquery-ui-sortable' );
-wp_deregister_script( 'jquery-ui-tabs' );
-wp_deregister_script( 'jquery-ui-widget' );
 
-//Supprimer jquery
-wp_deregister_script( 'jquery' );
+function my_assets() {
+	wp_deregister_script( 'jquery' );
+	wp_register_script( 'jquery', get_template_directory_uri() . '/public/js/all.js' );
+}
+
+add_action( 'wp_enqueue_scripts', 'my_assets' );
 ?>
