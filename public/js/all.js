@@ -10097,6 +10097,7 @@ f=new sa(C,u,C[u],D,f),u in A&&(f.e=A[u]),f.xs0=0,f.plugin=h,d._overwriteProps.p
 var ToggleMobileLoginButton = {
   settings: {
     $button: $('.js-toggleLoginBlock'),
+    $icon: $('.js-toggleLoginBlock .material-icons'),
     $loginForm: $('.js-loginForm')
   },
 
@@ -10107,6 +10108,7 @@ var ToggleMobileLoginButton = {
 
     that.settings.$button.on('click', function() {
       that.settings.$loginForm.toggle();
+      that.settings.$icon.toggle();
     });
   }
 }
