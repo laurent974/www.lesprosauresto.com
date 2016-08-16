@@ -963,7 +963,7 @@ html #wpadminbar.mobile {
       color: #ffffff;
       font-size: 33px; }
     .Login-MobileButton:active {
-      box-shadow: none; }
+      outline: none; }
 
 #wpmem_login,
 #wpmem_reg {
