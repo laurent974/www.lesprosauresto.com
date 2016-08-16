@@ -1084,11 +1084,15 @@ html #wpadminbar.mobile {
     vertical-align: -2px; }
 
 .Logo {
-  line-height: 20px; }
+  margin-left: 20px;
+  padding-top: 10px; }
   .Logo-Image {
     display: inline-block;
-    width: 22px;
-    background: url("../images/logo-lpar.png") no-repeat; }
+    width: 40px;
+    height: 39px;
+    background: url("../images/logo-lpar.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle; }
   .Logo-Slogan {
     color: #ffffff; }
 

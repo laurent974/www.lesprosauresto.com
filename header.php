@@ -32,7 +32,7 @@
     <main class="Global">
       <header class="Header slide">
         <div class="Logo">
-          <span class="Logo-Imge"></span>
+          <span class="Logo-Image"></span>
           <span class="Logo-Slogan">Les Pros au resto</span>
         </div>
 
