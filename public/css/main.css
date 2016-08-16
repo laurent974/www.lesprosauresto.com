@@ -983,10 +983,12 @@ html #wpadminbar.mobile {
       opacity: 1;
       color: #ffffff;
       font-size: 33px;
-      -webkit-transition: all .25s ease-in-out;
-      transition: all .25s ease-in-out; }
+      -webkit-transition: opacity .3s ease-in-out;
+      transition: opacity .3s ease-in-out; }
       .Login-MobileButton .material-icons.hide {
-        opacity: 0; }
+        opacity: 0;
+        -webkit-transition: opacity .3s ease-in-out;
+        transition: opacity .3s ease-in-out; }
     .Login-MobileButton:focus {
       outline: none; }
 

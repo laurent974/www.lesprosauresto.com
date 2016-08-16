@@ -178,10 +178,11 @@
       opacity: 1;
       color: $white;
       font-size: 33px;
-      transition: all .25s ease-in-out;
+      transition: opacity .3s ease-in-out;
 
       &.hide {
         opacity: 0;
+        transition: opacity .3s ease-in-out;
       }
     }
 
