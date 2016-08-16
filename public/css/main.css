@@ -865,11 +865,11 @@ html #wpadminbar.mobile {
       right: 0;
       margin: 10px;
       box-shadow: none;
-      border: 1px solid #3E4147;
+      background: #3E4147;
       border-radius: 0; }
       .Login:after {
         bottom: 100%;
-        left: 50%;
+        left: 92%;
         border: solid transparent;
         content: " ";
         height: 0;
@@ -886,7 +886,8 @@ html #wpadminbar.mobile {
     color: #3E4147; }
     @media (max-width: 767px) {
       .Login p {
-        text-align: center; } }
+        text-align: center;
+        color: #ffffff; } }
   .Login a[href*="a=logout"] {
     display: inline-block;
     font-size: 12px;
