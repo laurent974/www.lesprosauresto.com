@@ -473,7 +473,8 @@ textarea {
 @media (max-width: 767px) {
   .Part {
     z-index: 1;
-    position: relative; } }
+    position: relative;
+    margin-top: 45px; } }
 
 .Part-SingleThumbnail {
   width: 100%;
@@ -984,6 +985,17 @@ html #wpadminbar.mobile {
 #wpmem_login,
 #wpmem_reg {
   color: inherit !important; }
+  @media (max-width: 767px) {
+    #wpmem_login .button_div,
+    #wpmem_reg .button_div {
+      height: auto;
+      text-align: left; }
+    #wpmem_login .link-text,
+    #wpmem_reg .link-text {
+      text-align: center; }
+      #wpmem_login .link-text a,
+      #wpmem_reg .link-text a {
+        display: inline-block; } }
 
 .Post-Content .ldc-ul_cont {
   background-color: transparent;

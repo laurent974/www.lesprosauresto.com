@@ -185,4 +185,19 @@
 #wpmem_login,
 #wpmem_reg {
   color: inherit !important;
+
+  @include mq(xs) {
+    .button_div {
+      height: auto;
+      text-align: left;
+    }
+
+    .link-text {
+      text-align: center;
+
+      a {
+        display: inline-block;
+      }
+    }
+  }
 }
