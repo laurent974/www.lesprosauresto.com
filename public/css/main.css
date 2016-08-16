@@ -922,6 +922,10 @@ html #wpadminbar.mobile {
     color: #3E4147;
     font-size: 12px;
     font-weight: 300; }
+    @media (max-width: 767px) {
+      .Login label,
+      .Login .button_div {
+        color: #ffffff; } }
   .Login label {
     display: block;
     margin-top: 10px; }

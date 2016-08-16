@@ -91,6 +91,10 @@
     color: $bicycles_tyres;
     font-size: 12px;
     font-weight: 300;
+
+    @include mq(xs) {
+      color: $white;
+    }
   }
 
   label {
