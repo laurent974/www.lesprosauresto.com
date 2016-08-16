@@ -1,5 +1,11 @@
 .Logo {
-  background: url('../images/logo-lpar.png') no-repeat ;
+  line-height: 20px;
+
+  &-Image {
+    display: inline-block;
+    width: 22px;
+    background: url('../images/logo-lpar.png') no-repeat ;
+  }
 
   &-Slogan {
     color: $white;
