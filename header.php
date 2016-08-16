@@ -30,8 +30,12 @@
   </head>
   <body>
     <main class="Global">
-      <header class="Header slide">     <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
-        <ul id="navToggle" class="burger slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+      <header class="Header slide">
+        <div class="Logo">
+          <span class="Logo-Slogan">Les Pros au resto</span>
+        </div>
+
+        <ul id="navToggle" class="burger slide">
           <li></li><li></li><li></li>
         </ul>
 
