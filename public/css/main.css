@@ -857,11 +857,36 @@ html #wpadminbar.mobile {
   z-index: 10; }
   @media (max-width: 767px) {
     .Login {
-      display: none; } }
+      display: none;
+      position: relative;
+      width: 95%;
+      left: 0;
+      top: 100%;
+      right: 0;
+      margin: 10px;
+      box-shadow: none;
+      border: 1px solid #3E4147;
+      border-radius: 0; }
+      .Login:after {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-color: rgba(62, 65, 71, 0);
+        border-bottom-color: #3E4147;
+        border-width: 5px;
+        margin-left: -5px; } }
   .Login p {
     font-size: 14px;
     text-align: right;
     color: #3E4147; }
+    @media (max-width: 767px) {
+      .Login p {
+        text-align: center; } }
   .Login a[href*="a=logout"] {
     display: inline-block;
     font-size: 12px;
@@ -878,6 +903,9 @@ html #wpadminbar.mobile {
     text-decoration: none;
     border-radius: 2px;
     margin-top: 5px; }
+    @media (max-width: 767px) {
+      .Login a[href*="a=logout"] {
+        display: block; } }
   .Login input[type=text],
   .Login input[type=password] {
     max-width: 140px; }
