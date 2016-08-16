@@ -491,7 +491,7 @@ textarea {
   .burger li {
     width: 30px;
     height: 4px;
-    background-color: #DFBA69;
+    background-color: #e9edf5;
     border-radius: 3px;
     margin: 5px 0; }
     @media (max-width: 767px) {
@@ -980,7 +980,7 @@ html #wpadminbar.mobile {
     .Login-MobileButton .material-icons {
       position: absolute;
       opacity: 1;
-      color: #ffffff;
+      color: #e9edf5;
       font-size: 33px;
       -webkit-transition: opacity .3s ease-in-out;
       transition: opacity .3s ease-in-out; }
@@ -1106,7 +1106,7 @@ html #wpadminbar.mobile {
         margin: 0 auto; } }
   .Logo-Slogan {
     font-family: "Gloria Hallelujah";
-    color: #ffffff; }
+    color: #DFBA69; }
     @media (max-width: 767px) {
       .Logo-Slogan {
         display: none; } }
