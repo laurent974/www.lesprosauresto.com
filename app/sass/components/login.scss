@@ -188,15 +188,15 @@
 
   @include mq(xs) {
     .button_div {
-      height: auto;
-      text-align: left;
+      height: auto !important;
+      text-align: left !important;
     }
 
     .link-text {
-      text-align: center;
+      text-align: center !important;
 
       a {
-        display: inline-block;
+        display: inline-block !important;
       }
     }
   }

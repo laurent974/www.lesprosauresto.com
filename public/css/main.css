@@ -988,14 +988,14 @@ html #wpadminbar.mobile {
   @media (max-width: 767px) {
     #wpmem_login .button_div,
     #wpmem_reg .button_div {
-      height: auto;
-      text-align: left; }
+      height: auto !important;
+      text-align: left !important; }
     #wpmem_login .link-text,
     #wpmem_reg .link-text {
-      text-align: center; }
+      text-align: center !important; }
       #wpmem_login .link-text a,
       #wpmem_reg .link-text a {
-        display: inline-block; } }
+        display: inline-block !important; } }
 
 .Post-Content .ldc-ul_cont {
   background-color: transparent;
