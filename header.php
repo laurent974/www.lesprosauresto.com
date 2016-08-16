@@ -37,7 +37,7 @@
 
         <button class="only-on-mobiles Login-MobileButton js-toggleLoginBlock">
           <i class="material-icons">&#xE7FD;</i>
-          <i class="material-icons" style="display:none;">&#xE7FF;</i>
+          <i class="material-icons hide">&#xE7FF;</i>
         </button>
 
         <?php $login_query = new WP_Query( 'category_name=Login' ); ?>

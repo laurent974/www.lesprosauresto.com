@@ -166,14 +166,22 @@
   }
 
   &-MobileButton {
+    position: relative;
     float: right;
     padding: 12px;
     border: 0;
     background: transparent;
 
     .material-icons {
+      position: absolute;
+      opacity: 1;
       color: $white;
       font-size: 33px;
+      transition: all .25s ease-in-out;
+
+      &.hide {
+        opacity: 0;
+      }
     }
 
     &:focus {

@@ -972,13 +972,20 @@ html #wpadminbar.mobile {
             display: inline-block;
             color: #DFBA69; } }
   .Login-MobileButton {
+    position: relative;
     float: right;
     padding: 12px;
     border: 0;
     background: transparent; }
     .Login-MobileButton .material-icons {
+      position: absolute;
+      opacity: 1;
       color: #ffffff;
-      font-size: 33px; }
+      font-size: 33px;
+      -webkit-transition: all .25s ease-in-out;
+      transition: all .25s ease-in-out; }
+      .Login-MobileButton .material-icons.hide {
+        opacity: 0; }
     .Login-MobileButton:focus {
       outline: none; }
 
