@@ -126,6 +126,10 @@
 
     fieldset {
       margin: 0;
+
+      @include mq(xs) {
+        width: 100%;
+      }
     }
 
     .div_text {

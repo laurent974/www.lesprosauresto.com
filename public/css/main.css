@@ -944,6 +944,9 @@ html #wpadminbar.mobile {
     font-size: 14px; }
     .Login #wpmem_login fieldset {
       margin: 0; }
+      @media (max-width: 767px) {
+        .Login #wpmem_login fieldset {
+          width: 100%; } }
     .Login #wpmem_login .div_text {
       width: 100%;
       margin: 5px 0 0 0; }
