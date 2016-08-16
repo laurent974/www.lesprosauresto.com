@@ -121,6 +121,10 @@
       color: $white;
       font-size: 33px;
     }
+
+    &:active {
+      box-shadow: none;
+    }
   }
 }
 

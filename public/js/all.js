@@ -10103,6 +10103,8 @@ var ToggleMobileLoginButton = function() {
   initialize = function() {
     var that = this;
 
+    console.log('Yes')
+
     that.settings.$button.on('click', function() {
       that.settings.$loginForm.toggle();
     });
@@ -10113,6 +10115,7 @@ var ToggleMobileLoginButton = function() {
  * Au Chargement du DOM, on execute:
  */
 $(document).ready(function() {
+  console.log('ok');
   ToggleMobileLoginButton.initialize();
 });
 
