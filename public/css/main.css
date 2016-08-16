@@ -1083,4 +1083,9 @@ html #wpadminbar.mobile {
     font-size: 15px;
     vertical-align: -2px; }
 
+.Logo {
+  background: url("../images/logo-lpar.png") no-repeat; }
+  .Logo-Slogan {
+    color: #ffffff; }
+
 /*# sourceMappingURL=main.css.map */
