@@ -5,6 +5,16 @@
     <title>Les pros au resto</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_directory'); ?>/favico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favico/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favico/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="<?php bloginfo('template_directory'); ?>/favico/manifest.json">
+    <link rel="mask-icon" href="<?php bloginfo('template_directory'); ?>/favico/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="lesprosauresto">
+    <meta name="application-name" content="lesprosauresto">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- [if lt IE 9]
     <script src="/public/js/html5shiv.js"></script>
     <![endif]-->
