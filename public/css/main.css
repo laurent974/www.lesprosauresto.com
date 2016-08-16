@@ -966,7 +966,7 @@ html #wpadminbar.mobile {
     .Login-MobileButton .material-icons {
       color: #ffffff;
       font-size: 33px; }
-    .Login-MobileButton:active {
+    .Login-MobileButton:focus {
       outline: none; }
 
 #wpmem_login,
