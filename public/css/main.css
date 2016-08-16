@@ -473,8 +473,7 @@ textarea {
 @media (max-width: 767px) {
   .Part {
     z-index: 1;
-    position: relative;
-    margin-top: 45px; } }
+    position: relative; } }
 
 .Part-SingleThumbnail {
   width: 100%;
