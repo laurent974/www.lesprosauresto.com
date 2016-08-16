@@ -1091,7 +1091,8 @@ html #wpadminbar.mobile {
       position: absolute;
       left: 50%;
       margin-left: -11px;
-      text-align: center; } }
+      text-align: center;
+      padding-top: 12px; } }
   .Logo-Image {
     display: inline-block;
     width: 22px;
