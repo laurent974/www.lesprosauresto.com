@@ -1097,7 +1097,7 @@ html #wpadminbar.mobile {
     display: inline-block;
     width: 22px;
     height: 39px;
-    background: url("../images/logo-lpar.png") no-repeat;
+    background: url("../images/logo-lpar-or.png") no-repeat;
     background-size: contain;
     vertical-align: middle; }
     @media (max-width: 767px) {
