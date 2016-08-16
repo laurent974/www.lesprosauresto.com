@@ -4,7 +4,7 @@
 
   &-Image {
     display: inline-block;
-    width: 40px;
+    width: 22px;
     height: 39px;
     background: url('../images/logo-lpar.png') no-repeat;
     background-size: contain;
@@ -12,6 +12,7 @@
   }
 
   &-Slogan {
+    font-family: "Reenie Beanie";
     color: $white;
   }
 }
