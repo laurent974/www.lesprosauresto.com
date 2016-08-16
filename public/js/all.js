@@ -10106,7 +10106,7 @@ var ToggleMobileLoginButton = {
 
     that.settings.$button.on('click', function() {
       that.settings.$loginForm.toggle();
-      that.settings.$icon.toggle();
+      that.settings.$icon.toggleClass('hide');
     });
   }
 }
