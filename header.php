@@ -35,9 +35,9 @@
           <li></li><li></li><li></li>
         </ul>
 
-        <div class="only-on-mobiles">
+        <button class="only-on-mobiles Login-MobileButton js-toggleLoginBlock">
           <i class="material-icons">&#xE7FD;</i>
-        </div>
+        </button>
 
         <?php $login_query = new WP_Query( 'category_name=Login' ); ?>
         <?php if ($login_query->have_posts()) : ?>

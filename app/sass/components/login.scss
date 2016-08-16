@@ -110,6 +110,16 @@
       padding: 0;
     }
   }
+
+  &-MobileButton {
+    float: right;
+    padding: 12px;
+
+    .material-icons {
+      color: $white;
+      font-size: 33px;
+    }
+  }
 }
 
 #wpmem_login,

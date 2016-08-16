@@ -925,6 +925,12 @@ html #wpadminbar.mobile {
       width: 100%;
       font-size: 12px;
       padding: 0; }
+  .Login-MobileButton {
+    float: right;
+    padding: 12px; }
+    .Login-MobileButton .material-icons {
+      color: #ffffff;
+      font-size: 33px; }
 
 #wpmem_login,
 #wpmem_reg {
