@@ -2,6 +2,13 @@
   margin-left: 20px;
   padding-top: 10px;
 
+  @include mq(xs) {
+    position: absolute;
+    left: 50%;
+    margin-left: -11px;
+    text-align: center;
+  }
+
   &-Image {
     display: inline-block;
     width: 22px;
@@ -9,10 +16,19 @@
     background: url('../images/logo-lpar.png') no-repeat;
     background-size: contain;
     vertical-align: middle;
+
+    @include mq(xs) {
+      display: block;
+      margin: 0 auto;
+    }
   }
 
   &-Slogan {
     font-family: "Gloria Hallelujah";
     color: $white;
+
+    @include mq(xs) {
+      display: none;
+    }
   }
 }

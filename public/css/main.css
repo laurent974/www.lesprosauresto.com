@@ -1086,6 +1086,12 @@ html #wpadminbar.mobile {
 .Logo {
   margin-left: 20px;
   padding-top: 10px; }
+  @media (max-width: 767px) {
+    .Logo {
+      position: absolute;
+      left: 50%;
+      margin-left: -11px;
+      text-align: center; } }
   .Logo-Image {
     display: inline-block;
     width: 22px;
@@ -1093,8 +1099,15 @@ html #wpadminbar.mobile {
     background: url("../images/logo-lpar.png") no-repeat;
     background-size: contain;
     vertical-align: middle; }
+    @media (max-width: 767px) {
+      .Logo-Image {
+        display: block;
+        margin: 0 auto; } }
   .Logo-Slogan {
     font-family: "Gloria Hallelujah";
     color: #ffffff; }
+    @media (max-width: 767px) {
+      .Logo-Slogan {
+        display: none; } }
 
 /*# sourceMappingURL=main.css.map */
