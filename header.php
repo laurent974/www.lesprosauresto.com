@@ -42,7 +42,7 @@
         <?php $login_query = new WP_Query( 'category_name=Login' ); ?>
         <?php if ($login_query->have_posts()) : ?>
           <?php while ($login_query->have_posts()) : $login_query->the_post(); ?>
-             <div class="Login">
+             <div class="Login js-loginForm">
                <?php the_content(); ?>
              </div>
            <?php endwhile; ?>
