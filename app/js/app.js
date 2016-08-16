@@ -1,4 +1,4 @@
-var ToggleMobileLoginButton = function() {
+var ToggleMobileLoginButton = {
   settings = {
     $button: $('.js-toggleLoginBlock'),
     $loginForm: $('.js-loginForm')
